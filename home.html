@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Accueil</title>
+</head>
+
+<body>
+
+    <!-- ======= Section Navigation ======= -->
+    <section id="navigation" class="style-menu">
+        <nav class="navbar navbar-expand-lg menu-color ">
+            <div class="container-fluid  container-menu ">
+                <a class="navbar-brand " href="#" /><img src="./assets/img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-app">
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Prendre un rendez-vous</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Vous êtes médecin?</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Spécialités</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Représentant médical</a>
+                        </li>
+                        <li class="nav-item item-login">
+                            <a class="nav-link" href="#">Se connecter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="#">
+                                <p class="contact">Contactez-nous</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ======= End Section Navigation ======= -->
+    <!-- =======  Section Doctor ======= -->
+    <section id="doctor">
+        <div class="our-doctor">
+
+            <div class="take-doctor">
+                <div class="main-doctor">
+                    <div class="find-all-doctor">
+                        <p class="title-doctor">Trouvez votre médecin</p>
+                        <p class="title-doctor"> </p>
+                    </div>
+                    <div class="doctor-app">
+                        <img class="doctor-drawing" src="./assets/img/doctor-1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="find-doctor main-container" action="">
+            <div class="form-search">
+                <div class="city">
+                    <input type="text" class="form-control input-city" placeholder="Ville"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ville'">
+                </div>
+                <div class="governorate">
+                    <input type="text" class="form-control input-governorate" placeholder="Gouvernorat"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Gouvernorat'">
+
+                </div>
+                <div class="speciality">
+                    <div class="input-filed-speciality">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle btn-speciality" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./assets/img/background-input.svg" alt="">
+                                <p>Spécialité/Expertise</p>
+                                <img class="icon-arrow" src="./assets/img/arrow-down.svg" alt="">
+                            </button>
+
+                            <ul class="dropdown-menu style-dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" calendar-date ">
+                    <input id="beginning-date" type="button" class="form-control input-date" placeholder="Date début"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date début'">
+
+                </div>
+                <div class="  calendar-date">
+                    <input id="beginning-date" type="button" class="form-control input-date" placeholder="Date fin"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date fin'">
+
+                </div>
+                <div class="search">
+                    <button class="btn-search">
+                        <img src="./assets/img/search.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <!-- ======= End Section Doctor ======= -->
+    <!-- =======  Section Result ======= -->
+    <section id="result">
+        <div class="view-result main-container">
+            <div class="number-result">
+                <p class="digit-result"> 18016 résultats</p>
+                <p class="online-result">Trouvez à France un médecin généraliste (ou un professionnel pratiquant des
+                    actes de médecine
+                    générale) proposant la prise de rendez-vous en ligne</p>
+            </div>
+            <div class="result-doctor">
+                <div class="list-doctor">
+                    <div class="card-doctor">
+                        <div class="details-doctor">
+                            <div class="information-doctor">
+                                <div class="style-doctor">
+                                    <img class="picture-of-doctor" src="./assets/img/doctor.jpg" alt="">
+                                </div>
+                                <div class="style-doctor">
+                                    <img src="./assets/img/camera.svg" alt="">
+                                </div>
+                                <div class="style-doctor"> <img src="./assets/img/tools.svg" alt=""></div>
+                                <p class="distance ">5.3 km</p>
+                            </div>
+                            <div class="our-information-doctor">
+                                <p class="name-doctor">Dr.Alain SERDJANIAN</p>
+                                <p class="specefic-doctor">Médecin généraliste</p>
+                                <div class="information-location">
+                                    <div class="picture-location">
+                                        <img src="./assets/img/location.svg" alt="">
+                                    </div>
+                                    <p class="description-adress">10 Rue Maître Peloutier 13540 Aix-en-Provence, 10 Rue
+                                        Maître Peloutier 13540
+                                        Aix-en-Provence</p>
+                                </div>
+                                <div class="experience-of-doctor">
+                                    <div class="picture-experience">
+                                        <img src="./assets/img/experience.svg" alt="">
+                                    </div>
+                                    <p class="year-experience">10 ans d’expérience</p>
+                                </div>
+                                <div class="medical-consultation">
+                                    <div class="logo-consultation">
+                                        <img src="./assets/img/video.svg" alt="">
+                                    </div>
+                                    <p class="doctor-consultation">Consultation vidéo disponible</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/checked.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="use-cnam">
+                                    <div class="logo-cnam">
+                                        <img src="./assets/img/cnam.svg" alt="">
+                                    </div>
+                                    <p class="with-cnam">Conventioné avec CNAM</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/checked.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <div class="all-expertise">
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-1</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-2</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-3</p>
+                                </a>
+
+                            </div>
+
+
+                            <a class="btn-appointment-day" href="">
+                                <p class="take-appointment-day">Prendre un rendez vous</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-appointment">
+
+                    <div class="appointment" id="body-appointment">
+
+
+                        <div class="calendar">
+                            <div class="arrow-previous"><img class="image-previous" onclick="fct2()"
+                                    src="./assets/img/previous.svg" alt=""></div>
+                            <div class="date-appointment">
+                                <div class="day  ">
+
+                                    <div class="date-day">
+                                        <p id="day-1">Mar</p>
+                                        <p id="month-1">11 avr. 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-2">Mer</p>
+                                        <p id="month-2">12 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-3">Jeu</p>
+                                        <p id="month-3">13 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-4">Ven</p>
+                                        <p id="month-4">14 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-5">Sam</p>
+                                        <p id="month-5">15 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-6">Dim</p>
+                                        <p id="month-6">16 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-7">Lun</p>
+                                        <p id="month-7">17 avr 2023</p>
+                                    </div>
+                                </div>
+                                <div class="times " id="body-times" bis_skin_checked="1">
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="arrow-next"><img class="image-next" src="./assets/img/next.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="result-doctor">
+                <div class="list-doctor">
+                    <div class="card-doctor">
+                        <div class="details-doctor">
+                            <div class="information-doctor">
+                                <div class="style-doctor">
+                                    <img class="picture-of-doctor" src="./assets/img/doctor.jpg" alt="">
+                                </div>
+                                <div class="style-doctor">
+                                    <img class="filter-icon" src="./assets/img/camera.svg" alt="">
+                                </div>
+                                <div class="style-doctor"> <img src="./assets/img/tools.svg" alt=""></div>
+                                <p class="distance ">5.3 km</p>
+                            </div>
+                            <div class="our-information-doctor">
+                                <p class="name-doctor">Dr.Alain SERDJANIAN</p>
+                                <p class="specefic-doctor">Médecin généraliste</p>
+                                <div class="information-location">
+                                    <div class="picture-location">
+                                        <img src="./assets/img/location.svg" alt="">
+                                    </div>
+                                    <p class="description-adress">10 Rue Maître Peloutier 13540 Aix-en-Provence, 10 Rue
+                                        Maître Peloutier 13540
+                                        Aix-en-Provence</p>
+                                </div>
+                                <div class="experience-of-doctor">
+                                    <div class="picture-experience">
+                                        <img src="./assets/img/experience.svg" alt="">
+                                    </div>
+                                    <p class="year-experience">10 ans d’expérience</p>
+                                </div>
+                                <div class="medical-consultation">
+                                    <div class="logo-consultation">
+                                        <img src="./assets/img/video.svg" alt="">
+                                    </div>
+                                    <p class="doctor-consultation">Consultation vidéo disponible</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/uncheked.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="use-cnam">
+                                    <div class="logo-cnam">
+                                        <img src="./assets/img/cnam.svg" alt="">
+                                    </div>
+                                    <p class="with-cnam">Conventioné avec CNAM</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/uncheked.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <div class="all-expertise">
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-1</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-2</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-3</p>
+                                </a>
+
+                            </div>
+
+
+                            <a class="btn-appointment-day" href="">
+                                <p class="take-appointment-day">Prendre un rendez vous</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendar-appointment">
+
+                    <div class="appointment" id="body-appointment">
+
+
+                        <div class="calendar">
+                            <div class="arrow-previous"><img class="image-previous" onclick="fct2()"
+                                    src="./assets/img/previous.svg" alt=""></div>
+                            <div class="date-appointment">
+                                <div class="day  ">
+
+                                    <div class="date-day">
+                                        <p id="day-1">Mar</p>
+                                        <p id="month-1">11 avr. 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-2">Mer</p>
+                                        <p id="month-2">12 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-3">Jeu</p>
+                                        <p id="month-3">13 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-4">Ven</p>
+                                        <p id="month-4">14 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-5">Sam</p>
+                                        <p id="month-5">15 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-6">Dim</p>
+                                        <p id="month-6">16 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-7">Lun</p>
+                                        <p id="month-7">17 avr 2023</p>
+                                    </div>
+                                </div>
+                                <div class="times " id="body-times" bis_skin_checked="1">
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>8:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>9:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>10:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                        <div class="hour-appointment no-time" bis_skin_checked="1">
+                                            <p>-</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>12:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>13:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>14:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>15:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>16:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>17:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>18:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>19:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>20:00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="time" bis_skin_checked="1">
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                        <div class="hour-appointment" bis_skin_checked="1">
+                                            <p>21:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="arrow-next"><img class="image-next"  src="./assets/img/next.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="result-doctor">
+                <div class="list-doctor">
+                    <div class="card-doctor">
+                        <div class="details-doctor">
+                            <div class="information-doctor">
+                                <div class="style-doctor">
+                                    <img class="picture-of-doctor" src="./assets/img/doctor.jpg" alt="">
+                                </div>
+                                <div class="style-doctor">
+                                    <img class="filter-icon" src="./assets/img/camera.svg" alt="">
+                                </div>
+                                <div class="style-doctor"> <img src="./assets/img/tools.svg" alt=""></div>
+                                <p class="distance ">5.3 km</p>
+                            </div>
+                            <div class="our-information-doctor">
+                                <p class="name-doctor">Dr.Alain SERDJANIAN</p>
+                                <p class="specefic-doctor">Médecin généraliste</p>
+                                <div class="information-location">
+                                    <div class="picture-location">
+                                        <img src="./assets/img/location.svg" alt="">
+                                    </div>
+                                    <p class="description-adress">10 Rue Maître Peloutier 13540 Aix-en-Provence, 10 Rue
+                                        Maître Peloutier 13540
+                                        Aix-en-Provence</p>
+                                </div>
+                                <div class="experience-of-doctor">
+                                    <div class="picture-experience">
+                                        <img src="./assets/img/experience.svg" alt="">
+                                    </div>
+                                    <p class="year-experience">10 ans d’expérience</p>
+                                </div>
+                                <div class="medical-consultation">
+                                    <div class="logo-consultation">
+                                        <img src="./assets/img/video.svg" alt="">
+                                    </div>
+                                    <p class="doctor-consultation">Consultation vidéo disponible</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/uncheked.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="use-cnam">
+                                    <div class="logo-cnam">
+                                        <img src="./assets/img/cnam.svg" alt="">
+                                    </div>
+                                    <p class="with-cnam">Conventioné avec CNAM</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/checked.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <div class="all-expertise">
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-1</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-2</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-3</p>
+                                </a>
+
+                            </div>
+
+
+                            <a class="btn-appointment-day" href="">
+                                <p class="take-appointment-day">Prendre un rendez vous</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendar-appointment">
+
+                    <div class="appointment" id="body-appointment">
+
+
+                        <div class="calendar">
+                            <div class="arrow-previous"><img class="image-previous" onclick="fct2()"
+                                    src="./assets/img/previous.svg" alt=""></div>
+                            <div class="date-appointment">
+                                <div class="day  ">
+
+                                    <div class="date-day">
+                                        <p id="day-1">Mar</p>
+                                        <p id="month-1">11 avr. 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-2">Mer</p>
+                                        <p id="month-2">12 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-3">Jeu</p>
+                                        <p id="month-3">13 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-4">Ven</p>
+                                        <p id="month-4">14 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-5">Sam</p>
+                                        <p id="month-5">15 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-6">Dim</p>
+                                        <p id="month-6">16 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-7">Lun</p>
+                                        <p id="month-7">17 avr 2023</p>
+                                    </div>
+                                </div>
+                                <div class="times empty-calendar-success" id="body-times">
+                                    <div class="empty-calendar">
+                                        <img class="icon-no-calendar" src="./assets/img/calendar.svg" alt="">
+                                        <a class="next-appointment" href="">
+                                            <p class="rdv-appointment">Prochain RDV le 22 février 2023</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="arrow-next"><img class="image-next" src="./assets/img/next.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="result-doctor">
+                <div class="list-doctor">
+                    <div class="card-doctor">
+                        <div class="details-doctor">
+                            <div class="information-doctor">
+                                <div class="style-doctor">
+                                    <img class="picture-of-doctor" src="./assets/img/doctor.jpg" alt="">
+                                </div>
+                                <div class="style-doctor">
+                                    <img class="filter-icon" src="./assets/img/camera.svg" alt="">
+                                </div>
+                                <div class="style-doctor"> <img src="./assets/img/tools.svg" alt=""></div>
+                                <p class="distance ">5.3 km</p>
+                            </div>
+                            <div class="our-information-doctor">
+                                <p class="name-doctor">Dr.Alain SERDJANIAN</p>
+                                <p class="specefic-doctor">Médecin généraliste</p>
+                                <div class="information-location">
+                                    <div class="picture-location">
+                                        <img src="./assets/img/location.svg" alt="">
+                                    </div>
+                                    <p class="description-adress">10 Rue Maître Peloutier 13540 Aix-en-Provence, 10 Rue
+                                        Maître Peloutier 13540
+                                        Aix-en-Provence</p>
+                                </div>
+                                <div class="experience-of-doctor">
+                                    <div class="picture-experience">
+                                        <img src="./assets/img/experience.svg" alt="">
+                                    </div>
+                                    <p class="year-experience">10 ans d’expérience</p>
+                                </div>
+                                <div class="medical-consultation">
+                                    <div class="logo-consultation">
+                                        <img src="./assets/img/video.svg" alt="">
+                                    </div>
+                                    <p class="doctor-consultation">Consultation vidéo disponible</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/uncheked.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="use-cnam">
+                                    <div class="logo-cnam">
+                                        <img src="./assets/img/cnam.svg" alt="">
+                                    </div>
+                                    <p class="with-cnam">Conventioné avec CNAM</p>
+                                    <div class="icon-cheked">
+                                        <img src="./assets/img/uncheked.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <div class="all-expertise">
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-1</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-2</p>
+                                </a>
+                                <a class="btn-expertise" href="">
+                                    <p class="name-expertise">expertise-3</p>
+                                </a>
+
+                            </div>
+
+
+                            <a class="btn-appointment-day" href="">
+                                <p class="take-appointment-day">Prendre un rendez vous</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendar-appointment">
+
+                    <div class="appointment" id="body-appointment">
+
+
+                        <div class="calendar">
+                            <div class="arrow-previous"><img class="image-previous" onclick="fct2()"
+                                    src="./assets/img/previous.svg" alt=""></div>
+                            <div class="date-appointment">
+                                <div class="day  ">
+
+                                    <div class="date-day">
+                                        <p id="day-1">Mar</p>
+                                        <p id="month-1">11 avr. 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-2">Mer</p>
+                                        <p id="month-2">12 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-3">Jeu</p>
+                                        <p id="month-3">13 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-4">Ven</p>
+                                        <p id="month-4">14 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-5">Sam</p>
+                                        <p id="month-5">15 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-6">Dim</p>
+                                        <p id="month-6">16 avr 2023</p>
+                                    </div>
+
+                                    <div class="date-day">
+                                        <p id="day-7">Lun</p>
+                                        <p id="month-7">17 avr 2023</p>
+                                    </div>
+                                </div>
+                                <div class="times empty-calendar-danger" id="body-times">
+                                    <div class="empty-calendar">
+                                        <img class="icon-no-calendar" src="./assets/img/empty-calendar-1.svg" alt="">
+                                        <a class="no-appointment" href="">
+                                            <p class="off-appointment">Pas de RDV disponible</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="arrow-next"><img class="image-next"  src="./assets/img/next.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-page main-container">
+            <div class="details-contact">
+                <div class="logo-company">
+                    <img src="./assets/img/logo-footer.svg" alt="">
+                </div>
+                <p class="adress">27th Avenue New York, W2 3XE</p>
+                <p class="email-company">info@doctor.com</p>
+                <div class="social-media">
+                    <img class="img-social-media" src="./assets/img/facebook.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/instagram.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/twitter.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/linkedin.svg" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <p class="quick-links">Liens rapides</p>
+                <div>
+                    <a class="all-links" href="">
+                        <p class="link-details">CGU</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Légal Notice</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Blog</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Devenir médecin</p>
+                    </a>
+                </div>
+            </div>
+            <div class="question">
+                <p class="specefic-question">Si vous avez des questions spécifiques, contactez-nous !
+
+                </p>
+                <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
+                    Ipsum is simply dummy
+                    text of the printing and typesetting industry.</p>
+                <div class="email-adress">
+                    <input placeholder="Adresse e-mail" class="input-email" type="email" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Adresse e-mail'" />
+                    <button class="btn-send-email">
+                        <img src="./assets/img/send-email.svg" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <p class="rights-reserved">© Doctor 2023. All rights reserved</p>
+    </footer>
+    <!-- ======= End Footer ======= -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        config = {
+            time_24hr: false,
+            altInput: true,
+            static: true,
+
+        }
+        flatpickr("#beginning-date", config);
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Home App</title>
+</head>
+
+<body>
+    <!-- ======= Section Navigation ======= -->
+    <section id="navigation" class="style-menu">
+        <nav class="navbar navbar-expand-lg menu-color ">
+            <div class="container-fluid  container-menu ">
+                <a class="navbar-brand " href="#" /><img src="./assets/img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-app">
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Prendre un rendez-vous</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Vous êtes médecin?</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Spécialités</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Représentant médical</a>
+                        </li>
+                        <li class="nav-item item-login">
+                            <a class="nav-link" href="#">Se connecter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="#">
+                                <p class="contact">Contactez-nous</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ======= End Section Navigation ======= -->
+    <!-- ======= Section Health ======= -->
+    <section id="health">
+        <div class="hero-health">
+            <div class="health-doctor main-container">
+                <div class="search-doctor">
+                    <h1 class="title-hero-health"><span>Votre santé,</span> <span>notre priorité</span> </h1>
+                    <form class="form-search-doctor" action="">
+                        <div class="inputs-search-doctors">
+                            <div class="speciality">
+                                <input type="text" class="form-control input-speciality"
+                                    placeholder="Nom, spécialité, établissement,..." onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Nom, spécialité, établissement,...'">
+                            </div>
+                            <div class="where-place">
+                                <input type="text" class="form-control input-where-place" placeholder="Où ?"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Où ?'">
+
+                            </div>
+                            <button class="btn-location"><img src="./assets/img/gps.svg" alt=""></button>
+                        </div>
+                        <button class="btn-search-doctor style-btn-search-doctor">Rechercher <img
+                                class="arrow-img-style" src="./assets/img/arrow-btn.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="group-doctors">
+                    <img class="img-group-doctor" src="./assets/img/groupe-doctors.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= End Section Health ======= -->
+    <!-- ======= Section Partner Health ======= -->
+    <section id="partner-health">
+        <div class="partner main-container">
+            <h2 class="title-partner">Votre <span>partenaire</span> santé, à vos côtés</h2>
+            <div class="owl-carousel owl-theme" id="carousel-partner-health">
+                <div class="item">
+                    <div class="item-for-carousel">
+                        <div class="details-item">
+                            <h3 class="title-item style-text">Accédez aux disponibilités de vos médecins</h3>
+                            <p class="description-item style-text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+
+                        <div class="img-item">
+                            <img class="picture-item" src="./assets/img/img-1-carousel.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-for-carousel">
+                        <div class="details-item">
+                            <h3 class="title-item style-text">Prenez un rendez-vous en ligne ou en cabinet en quelques
+                                clics</h3>
+                            <p class="description-item style-text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book.
+                            </p>
+                        </div>
+                        <div class="img-item">
+                            <img class="picture-item" src="./assets/img/img-2-carousel.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-for-carousel">
+                        <div class="details-item">
+                            <h3 class="title-item style-text">Une communauté de praticiens pour vous accompagner</h3>
+                            <p class="description-item style-text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                        <div class="img-item">
+                            <img class="picture-item" src="./assets/img/img-3-carousel.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-for-carousel">
+                        <div class="details-item">
+                            <h3 class="title-item style-text">Gérez vos rendez-vous et documents de santé ainsi que ceux
+                                de vos proches sur une même application</h3>
+                            <p class="description-item style-text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                        <div class="img-item">
+                            <img class="picture-item" src="./assets/img/img-4-carousel.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ======= End Section Partner Health ======= -->
+    <!-- =======  Section Edoctors Statistics  ======= -->
+    <section id="edoctor-statistics">
+        <div class="bg-section-edoctors">
+            <div class="main-container">
+                <h2 class="title-edoctors">eDoctors en <span>nombres</span></h2>
+                <div class="statistics-warraper">
+                    <div class="details-statistics">
+                        <img class="icon-statistics" src="./assets/img/edoctor-stat-1.svg" alt="">
+                        <p class="number-statistics">99 <span>k+</span>
+                        </p>
+                        <p class="description-statistics">Patients</p>
+                    </div>
+
+                    <div class="details-statistics">
+                        <img class="icon-statistics" src="./assets/img/edoctor-stat-2.svg" alt="">
+                        <p class="number-statistics">300<span>+</span>
+                        </p>
+                        <p class="description-statistics">Médecins</p>
+                    </div>
+
+                    <div class="details-statistics">
+                        <img class="icon-statistics" src="./assets/img/edoctor-stat-3.svg" alt="">
+                        <p class="number-statistics">20<span>+</span>
+                        </p>
+                        <p class="description-statistics">Spécialités</p>
+                    </div>
+
+                    <div class="details-statistics">
+                        <img class="icon-statistics" src="./assets/img/edoctor-stat-4.svg" alt="">
+                        <p class="number-statistics">95<span>%</span>
+                        </p>
+                        <p class="description-statistics">d’avis positifs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= End Section Edoctors Statistics  ======= -->
+
+    <!-- =======  Section Specialties  ======= -->
+    <section id="specialties">
+        <div class="our-specialties main-container">
+            <h2 class="title-our-specialties ">Nos spécialités <span>médicales </span></h2>
+
+
+            <div class="owl-carousel owl-theme" id="carousel-specialties">
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-1.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">1-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-3.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-1.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">2-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-3.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-1.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">4-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-3.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-1.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                    <div class="icon-specialty">
+                                        <img src="./assets/img/type-specialty-3.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Mobile -->
+            <div class="owl-carousel owl-theme" id="carousel-specialties-mobile">
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                <div class="icon-specialty">
+                                    <img src="./assets/img/type-specialty-1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty">1-Gynécologue</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                <div class="icon-specialty">
+                                    <img src="./assets/img/type-specialty-2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty">Chirurgien-dentiste</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                <div class="icon-specialty">
+                                    <img src="./assets/img/type-specialty-3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty">Pédiatre</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Carousel Mobile -->
+            <div class="link-all-specialty">
+                <a href="">Voir tout</a>
+            </div>
+        </div>
+    </section>
+    <!-- =======  End Section Specialties  ======= -->
+    <!-- =======  Section Doctor  ======= -->
+    <section id="doctor">
+
+        <div class="style-section-doctor">
+            <h4 class="title-doctor-section">Vous êtes <span>médecin?</span></h4>
+            <div class="doctor-section main-container">
+
+                <div class="picture-doctor-section">
+                    <img class="img-doctor-section" src="./assets/img/doctor-section.svg" alt="">
+                </div>
+                <div class="details-doctor-section">
+
+                    <div class="checked-point">
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Augmentez la visibilité de votre cabinet en ligne</p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Bénéficiez d’une communication facile avec vos
+                                patients
+                            </p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Améliorez la gestion de vos rendez-vous</p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Profitez d’un logiciel moderne pour une gestion
+                                efficace
+                                de
+                                votre cabinet</p>
+                        </div>
+                    </div>
+                    <div class="show-utilis">
+                        <a class="btn-show-utilis" href="">Découvrir notre outil <img class="arrow-btn-show-utilis"
+                                src="./assets/img/arrow-btn.svg" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======  End Section Doctor  ======= -->
+
+    <!-- =======  Section Paramedics  ======= -->
+    <section id="specialties">
+        <div class="our-specialties main-container">
+
+            <h2 class="title-our-specialties ">Nos spécialités <span>paramedics</span></h2>
+            <div class="owl-carousel owl-theme" id="carousel-paramedics">
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">1-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">2-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">4-Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="specialties-wrraper">
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-1.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Gynécologue</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-2.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Chirurgien-dentiste</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                        <div class="card-specialty">
+                            <div class="top-card">
+                                <div class="img-specialty">
+                                    <img class="picture-specialty" src="./assets/img/specialty-3.jpg" alt="">
+                                </div>
+                                <div class="details-specialty">
+                                    <h3 class="title-specialty position-text">Pédiatre</h3>
+                                    <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                        Le Lorem Ipsum est simplement du faux</p>
+
+                                </div>
+                            </div>
+                            <div class="link-top-specialty">
+                                <a href="">Prendre un RVD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Mobile -->
+            <div class="owl-carousel owl-theme" id="carousel-paramedics-mobile">
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty width-img" src="./assets/img/specialty-1.jpg" alt="">
+
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty position-text">1-Gynécologue</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty width-img" src="./assets/img/specialty-2.jpg" alt="">
+
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty position-text">Chirurgien-dentiste</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="card-specialty">
+                        <div class="top-card">
+                            <div class="img-specialty">
+                                <img class="picture-specialty width-img" src="./assets/img/specialty-3.jpg" alt="">
+
+                            </div>
+                            <div class="details-specialty">
+                                <h3 class="title-specialty position-text">Pédiatre</h3>
+                                <p class="description-specialty">Le Lorem Ipsum est simplement du faux texte employé
+                                    Le Lorem Ipsum est simplement du faux</p>
+
+                            </div>
+                        </div>
+                        <div class="link-top-specialty">
+                            <a href="">Prendre un RVD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Carousel Mobile -->
+            <div class="link-all-specialty">
+                <a href="">Voir tout</a>
+            </div>
+        </div>
+    </section>
+    <!-- =======  End Section Paramedics  ======= -->
+    <!-- =======  Section Doctor  ======= -->
+    <section id="doctor">
+        <div class="style-section-doctor custom-border">
+            <h4 class="title-doctor-section">Vous êtes <span>Paramedics?</span></h4>
+            <div class="doctor-section main-container style-reverse-section">
+
+                <div class="picture-doctor-section">
+                    <img class="img-doctor-section" src="./assets/img/paramedics-img.svg" alt="">
+                </div>
+                <div class="details-doctor-section">
+
+                    <div class="checked-point">
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Augmentez la visibilité de votre cabinet en ligne</p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Bénéficiez d’une communication facile avec vos
+                                patients
+                            </p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Améliorez la gestion de vos rendez-vous</p>
+                        </div>
+
+                        <div class="data-doctor-section">
+                            <img src="./assets/img/checked-1.svg" alt="">
+                            <p class="description-doctor-section">Profitez d’un logiciel moderne pour une gestion
+                                efficace
+                                de
+                                votre cabinet</p>
+                        </div>
+                    </div>
+                    <div class="show-utilis">
+                        <a class="btn-show-utilis" href="">Découvrir notre outil <img class="arrow-btn-show-utilis"
+                                src="./assets/img/arrow-btn.svg" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======  End Section Doctor  ======= -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-page main-container">
+            <div class="details-contact">
+                <div class="logo-company">
+                    <img src="./assets/img/logo-footer.svg" alt="">
+                </div>
+                <p class="adress">27th Avenue New York, W2 3XE</p>
+                <p class="email-company">info@doctor.com</p>
+                <div class="social-media">
+                    <img class="img-social-media" src="./assets/img/facebook.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/instagram.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/twitter.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/linkedin.svg" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <p class="quick-links">Liens rapides</p>
+                <div>
+                    <a class="all-links" href="">
+                        <p class="link-details">CGU</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Légal Notice</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Blog</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Devenir médecin</p>
+                    </a>
+                </div>
+            </div>
+            <div class="question">
+                <p class="specefic-question">Si vous avez des questions spécifiques, contactez-nous !
+
+                </p>
+                <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
+                    Ipsum is simply dummy
+                    text of the printing and typesetting industry.</p>
+                <div class="email-adress">
+                    <input placeholder="Adresse e-mail" class="input-email" type="email" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Adresse e-mail'" />
+                    <button class="btn-send-email">
+                        <img src="./assets/img/send-email.svg" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <p class="rights-reserved">© Doctor 2023. All rights reserved</p>
+        <button id="scrollToTopBtn" style="visibility: hidden;"><img src="./assets/img/arrow-to-the-top.svg"
+                alt=""></button>
+    </footer>
+    <!-- ======= End Footer ======= -->
+
+    <!-- ======= Script ======= -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/scrollToTop.js"></script>
+</body>
+
+</html>

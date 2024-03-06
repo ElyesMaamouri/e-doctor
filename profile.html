@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+    <title>Profil</title>
+</head>
+
+<body>
+    <!-- ======= Section Navigation ======= -->
+    <section id="navigation" class="style-menu">
+        <nav class="navbar navbar-expand-lg menu-color ">
+            <div class="container-fluid  container-menu ">
+                <a class="navbar-brand " href="#" /><img src="./assets/img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-app">
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Prendre un rendez-vous</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Vous êtes médecin?</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Spécialités</a>
+                        </li>
+
+                        <li class="nav-item item-menu-style">
+                            <a class="nav-link" href="#">Représentant médical</a>
+                        </li>
+                        <!-- Button trigger modal -->
+                        <div class="doctor-logged">
+                            <div class="user">
+                                <div class="logo-doctor">
+                                    <img class="style-logo-doctor" src="./assets/img/doctor.jpg" alt="">
+                                    <div class="abbreviation-style">
+                                        <p class="abbreviation">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                </div>
+
+                                <img class="icon-arrow-down" src="./assets/img/union.svg" alt="">
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Discussion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <hr class="border-chat">
+                    <div class="modal-body">
+
+                        <div class="chat-space">
+                            <div class="message-space">
+                                <div class="chat-details">
+                                    <div class="user-chat">
+                                        <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                                        <p class="user-name">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                    <div class="chat-date">
+                                        <p class="time-chat">3 Mars 2023 12:33</p>
+                                        <div>
+                                            <img class="details-time" src="./assets/img/chat-time.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p class="message-text">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression
+                                </p>
+                            </div>
+
+                            <div class="message-space">
+                                <div class="chat-details">
+                                    <div class="user-chat">
+                                        <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                                        <p class="user-name">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                    <div class="chat-date">
+                                        <p class="time-chat">3 Mars 2023 12:33</p>
+                                        <div>
+                                            <img class="details-time" src="./assets/img/chat-time.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p class="message-text">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression
+                                </p>
+                            </div>
+
+                            <div class="message-space">
+                                <div class="chat-details">
+                                    <div class="user-chat">
+                                        <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                                        <p class="user-name">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                    <div class="chat-date">
+                                        <p class="time-chat">3 Mars 2023 12:33</p>
+                                        <img class="details-time" src="./assets/img/chat-time.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <p class="message-text">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression
+                                </p>
+                            </div>
+                            <div class="message-space">
+                                <div class="chat-details">
+                                    <div class="user-chat">
+                                        <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                                        <p class="user-name">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                    <div class="chat-date">
+                                        <p class="time-chat">3 Mars 2023 12:33</p>
+                                        <div>
+                                            <img class="details-time" src="./assets/img/chat-time.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p class="message-text">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression
+                                </p>
+                            </div>
+                            <div class="message-space">
+                                <div class="chat-details">
+                                    <div class="user-chat">
+                                        <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                                        <p class="user-name">Dr.Alain SERDJANIAN</p>
+                                    </div>
+                                    <div class="chat-date">
+                                        <p class="time-chat">3 Mars 2023 12:33</p>
+                                        <div>
+                                            <img class="details-time" src="./assets/img/chat-time.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p class="message-text">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="message-send  ">
+                        <div class="profile-doctor">
+                            <img class="user-in-chat" src="./assets/img/doctor.jpg" alt="">
+                        </div>
+                        <div class="text-here">
+                            <input placeholder="Écrire un commentaire..." onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = 'Écrire un commentaire...'" class="input-chat" type="text">
+                        </div>
+                        <div class="send-text">
+                            <div class="file">
+                                <div class="style-input-file">
+                                    <input class="input-file" id="upload-file" type="file">
+                                </div>
+                                <label class="add-file" for="upload-file">
+                                    <img class="picture-send-file" src="./assets/img/send-file.svg" alt="">
+                                </label>
+                            </div>
+                            <div class="send">
+                                <img class="picture-transmit" src="./assets/img/send.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= End Section Navigation ======= -->
+
+    <!-- ======= Section Profil ======= -->
+    <section id="profil">
+        <div class="details-profil main-container">
+            <p class="style-profil">Profil</p>
+
+            <div class="btn-tab">
+                <div>
+                    <button class="tablinks active" onclick="openProject(event, 'login')">
+                        Connexion
+                    </button>
+                </div>
+                <div>
+                    <button class="tablinks" onclick="openProject(event, 'identify')">
+                        Identité
+                    </button>
+                </div>
+                <div>
+                    <button class="tablinks" onclick="openProject(event, 'insurance-details')">
+                        Détails de l'assurance
+                    </button>
+                </div>
+                <div>
+                    <button class="tablinks" onclick="openProject(event, 'relatives')">
+                        Mes proches
+                    </button>
+                </div>
+            </div>
+            <hr class="tab-hr" />
+
+            <div id="user-doctor">
+                <div class="project-doctor">
+
+                    <div class="tab">
+
+                        <div class="tabs-project">
+                            <div id="login" class="tabcontent" style="display: block">
+
+                                <form class="form-login" action="">
+                                    <div class="number-login">
+                                        <label class="label-inputs label-style-text" for="">Numéro de téléphone</label>
+                                        <div class="input-with-edit">
+                                            <input id="input1" placeholder="+216 22 000 000" disabled
+                                                class="input-phone style-input" type="number">
+                                            <img class="icon-edit" src="./assets/img/edit.svg"
+                                                onclick="toggleEnable('input1')" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="email-login">
+                                        <label class="label-inputs label-style-text" for="">Email</label>
+                                        <div class="input-with-edit">
+                                            <input id="input2" placeholder="doctoremail@email.com" disabled
+                                                class="input-email  style-input" type="text">
+                                            <img class="icon-edit" src="./assets/img/edit.svg"
+                                                onclick="toggleEnable('input2')" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="password-login">
+                                        <label class="label-inputs label-style-text" for="">Mot de passe</label>
+                                        <div class="input-with-edit">
+                                            <input id="input3" placeholder="●●●●●●●●●●●●●●●●●" disabled
+                                                class="input-password  style-input" type="password">
+                                            <img class="icon-edit" src="./assets/img/edit.svg"
+                                                onclick="toggleEnable('input3')" alt="">
+                                        </div>
+                                    </div>
+                                    <button class="btn-save">Sauvegarder les modifications</button>
+                                </form>
+                            </div>
+
+                            <div id="identify" class="tabcontent">
+                                <form class="form-identify" action="">
+                                    <div class="input-identify">
+                                        <div class="input-part-1">
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Nom & Prénom</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input4" placeholder="Nom & Prénom" disabled
+                                                        class="input-phone style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input4')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="birth-day-age">
+                                                <div class="birth-day">
+                                                    <label class="label-inputs label-style-text" for="">Date de 
+                                                        naissance</label>
+                                                    <div class="input-with-edit">
+                                                        <input id="input5" placeholder="jj-mm-aa" disabled type="text"  onfocus="(this.type='date')"
+                                                            class="input-calendar style-input">
+                                                        <img class="icon-edit" src="./assets/img/edit.svg"
+                                                            onclick="toggleEnable('input5')" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="age">
+
+                                                    <label class="label-inputs label-style-text" for="">Age</label>
+                                                    <div class="input-with-edit">
+                                                        <input id="input6" placeholder="28" disabled
+                                                            class="input-age  style-input" type="number">
+                                                        <img class="icon-edit" src="./assets/img/edit.svg"
+                                                            onclick="toggleEnable('input6')" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="adress">
+                                                <label class="label-inputs label-style-text" for="">Adresse</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input7"
+                                                        placeholder="Cercle des bureaux centre urbain nord" disabled
+                                                        class="input-adress  style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input7')" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input-part-2">
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Situation</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input8" placeholder="lorem lipsum" disabled
+                                                        class="input-phone style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input8')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Civile</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input9" placeholder="lorem lipsum" disabled
+                                                        class="input-phone style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input9')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Profession</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input10" placeholder="lorem lipsum" disabled
+                                                        class="input-phone style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input10')" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn-save">Sauvegarder les modifications</button>
+                                </form>
+                            </div>
+
+                            <div id="insurance-details" class="tabcontent">
+                                <form class="form-identify" action="">
+                                    <div class="input-assurance">
+                                        <div class="input-part-1">
+                                            <div class="cnam">
+                                                <label class="label-inputs label-style-text" for="">CNAM ID</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input11" placeholder="CNAM ID" disabled
+                                                        class="input-cnam style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input11')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="cnam-validation">
+                                                <div class="start-date">
+                                                    <label class="label-inputs label-style-text" for="">Valable
+                                                        de</label>
+                                                    <div class="input-with-edit">
+                                                        <input id="input12" placeholder="jj-mm-aa" disabled
+                                                            class="input-calendar style-input" type="text"  onfocus="(this.type='date')">
+                                                        <img class="icon-edit" src="./assets/img/edit.svg"
+                                                            onclick="toggleEnable('input12')" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="end-date">
+
+                                                    <label class="label-inputs label-style-text" for="">A</label>
+                                                    <div class="input-with-edit">
+                                                        <input id="input13" placeholder="jj-mm-aa" disabled type="text"  onfocus="(this.type='date')"
+                                                            class="input-calendar style-input ">
+                                                        <img class="icon-edit" src="./assets/img/edit.svg"
+                                                            onclick="toggleEnable('input13')" alt="">
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="assurance-private">
+                                                <label class="label-inputs label-style-text" for="">Assurance Privé
+                                                    ID</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input14" placeholder="3c7572d6b694" disabled
+                                                        class="input-assurance-private  style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input14')" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input-part-2">
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Autre
+                                                    information</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input15" placeholder="lorem lipsum" disabled
+                                                        class="input-other-information style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input15')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Autre
+                                                    information</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input16" placeholder="lorem lipsum" disabled
+                                                        class="input-other-information style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input16')" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="default-style">
+                                                <label class="label-inputs label-style-text" for="">Autre
+                                                    information</label>
+                                                <div class="input-with-edit">
+                                                    <input id="input17" placeholder="lorem lipsum" disabled
+                                                        class="input-other-information style-input" type="text">
+                                                    <img class="icon-edit" src="./assets/img/edit.svg"
+                                                        onclick="toggleEnable('input17')" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn-save">Sauvegarder les modifications</button>
+                                </form>
+
+                            </div>
+                            <div id="relatives" class="tabcontent">
+                                <div class="my-relatives">
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-1.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-2.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-3.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-2.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-3.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-2.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-2.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-1.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="human">
+                                        <div class="picture-of-human">
+                                            <img class="image-human" src="./assets/img/human-2.jpg" alt="">
+                                        </div>
+                                        <div class="details-human">
+                                            <p class="name-human">Nancy J. Rogers</p>
+                                            <p class="email-human">NancyJRogers@armyspy.com</p>
+                                            <div class="date-of-birth">
+                                                <img src="./assets/img/date-birth.svg" alt="">
+                                                <p class="details-date">05 Avril 1989</p>
+                                            </div>
+                                            <div class="number-phone">
+                                                <img src="./assets/img/number-phone.svg" alt="">
+                                                <p class="details-number-phone">+33-700-555-059</p>
+                                            </div>
+                                            <button class="btn-edit">Modifier <img class="icon-edit-relative"
+                                                    src="./assets/img/edit-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-page main-container">
+            <div class="details-contact">
+                <div class="logo-company">
+                    <img src="./assets/img/logo-footer.svg" alt="">
+                </div>
+                <p class="adress">27th Avenue New York, W2 3XE</p>
+
+                <p class="email-company">info@doctor.com</p>
+                <div class="social-media">
+                    <img class="img-social-media" src="./assets/img/facebook.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/instagram.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/twitter.svg" alt="">
+                    <img class="img-social-media" src="./assets/img/linkedin.svg" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <p class="quick-links">Liens rapides</p>
+                <div>
+                    <a class="all-links" href="">
+                        <p class="link-details">CGU</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Légal Notice</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Blog</p>
+                    </a>
+                    <a class="all-links" href="">
+                        <p class="link-details">Devenir médecin</p>
+                    </a>
+                </div>
+            </div>
+            <div class="question">
+                <p class="specefic-question">Si vous avez des questions spécifiques, contactez-nous !
+
+                </p>
+                <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
+                    Ipsum is simply dummy
+                    text of the printing and typesetting industry.</p>
+                <div class="email-adress">
+                    <input placeholder="Adresse e-mail" class="input-email" type="email" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Adresse e-mail'" />
+                    <button class="btn-send-email">
+                        <img src="./assets/img/send-email.svg" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <p class="rights-reserved">© Doctor 2023. All rights reserved</p>
+    </footer>
+    <!-- ======= End Footer ======= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+ 
+</body>
+
+</html>

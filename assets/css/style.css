@@ -1,0 +1,6582 @@
+/*------------------------------------
+	Google Fonts
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F7F7F7 !important;
+    overflow: inherit !important;
+    padding-right: 0 !important;
+}
+
+
+.main-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #EFEFEF;
+
+}
+
+.bullet {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #B2B2B2;
+    top: calc(-13px + 0.8rem);
+    left: calc(-3.3rem - 0.8rem / 2);
+    margin-bottom: calc(0.8rem * -1);
+}
+
+.filter-icon {
+    filter: invert(63%) sepia(5%) saturate(7%) hue-rotate(1deg) brightness(92%) contrast(0%)
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.order-div-1 {
+    order: -1;
+}
+
+@media (max-width : 991px) {
+    .order-div-1 {
+        order: 1;
+    }
+}
+
+/*Backgound color plan price*/
+.bg-color-card-plan-1 {
+    background: rgba(55, 71, 79, 1);
+}
+
+.bg-color-card-plan-2 {
+    background-color: rgba(26, 97, 96, 1);
+}
+
+.bg-color-card-plan-3 {
+    background-color: rgba(16, 24, 40, 1);
+}
+
+#scrollToTopBtn {
+    background-color: #455A64;
+    border-radius: 50%;
+    cursor: pointer;
+    width:60px;
+    height: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+    border: none;
+    z-index: 9999;
+  }
+/*--------------------------------------------------------------
+# Section Navigation
+--------------------------------------------------------------*/
+.container-menu {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+.style-menu {
+    border-bottom: 1px solid #EFEFEF;
+
+}
+
+.navbar-toggler {
+    color: #0CB8B6 !important;
+}
+
+#navigation .menu-app {
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#navigation .menu-color {
+    background-color: #FFFFFF;
+}
+
+#navigation .item-menu-style {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6C6B78;
+}
+
+#navigation .item-login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #33485B;
+
+}
+
+#navigation .contact {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+#navigation .btn-contact {
+    padding: 9px 25px;
+    background: #0CB8B6;
+    border-radius: 10px;
+}
+
+@media (max-width : 1250px) {
+    .container-menu {
+        max-width: 100%;
+    }
+
+    #navigation .btn-contact {
+        padding: 9px 10px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Section Footer
+--------------------------------------------------------------*/
+#footer {
+
+    background-color: #1D1F27;
+}
+
+#footer .footer-page {
+    padding-top: 122px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .details-contact,
+.links,
+.question {
+    width: 30%;
+}
+
+#footer .adress,
+.email-company,
+.city,
+.description {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF
+}
+
+#footer .adress {
+    margin: 0;
+    margin-top: 30px;
+}
+
+#footer .quick-links,
+.specefic-question {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #0CB8B6;
+    margin-bottom: 30px;
+}
+
+#footer .all-links {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#footer .link-details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+
+}
+
+
+#footer .social-media {
+    display: flex;
+    gap: 20px;
+}
+
+#footer .img-social-media {
+    cursor: pointer;
+}
+
+#footer .email-adress {
+    display: flex;
+}
+
+#footer .input-email {
+    border: 1px solid #DEE0E5;
+    border-radius: 10px;
+    background: #1D1F27;
+    padding: 15px 14px 15px 14px;
+    width: 80%;
+    height: 50px;
+    caret-color: #FFFFFF
+}
+
+#footer .input-email::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #B1B7C3;
+
+}
+
+#footer .btn-send-email {
+    background: #0CB8B6;
+    border-radius: 10px;
+    width: 64px;
+    height: 50px;
+    border: none;
+    margin-left: -20px
+}
+
+#footer .rights-reserved {
+    margin-top: 106px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #D0D0D0;
+    padding-bottom: 33px;
+    margin: 0;
+}
+
+@media (max-width : 991px) {
+    #footer {
+        margin-top: 90px;
+    }
+
+    #footer .footer-page {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 35px;
+
+    }
+
+    #footer .details-contact,
+    .links,
+    .question {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #footer .social-media {
+        justify-content: center;
+    }
+
+    #footer .input-email {
+        width: 100%;
+    }
+
+    #footer .rights-reserved {
+        margin-top: 0;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Section Navbar with doctor logged
+--------------------------------------------------------------*/
+#navigation .style-logo-doctor {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#navigation .user {
+    display: flex;
+}
+
+#navigation .abbreviation {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #171725;
+    margin-top: 8px;
+
+
+}
+
+#navigation .logo-doctor {
+    display: flex;
+    gap: 16px;
+}
+
+#navigation .abbreviation-style {
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#navigation .user {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#navigation .icon-arrow-down {
+    margin-top: -8px;
+}
+
+.modal-backdrop {
+
+    display: none;
+
+
+}
+
+.modal-open .modal {
+    width: 0px;
+    margin: 0 auto;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    padding-bottom: 8px !important;
+}
+
+#navigation .user-in-chat {
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#navigation .user-chat {
+    display: flex;
+    gap: 8px;
+}
+
+#navigation .chat-date {
+    display: flex;
+    gap: 8px;
+}
+
+#navigation .chat-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation .user-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 125%;
+
+    color: #323338;
+}
+
+#navigation .time-chat {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #323338;
+}
+
+#navigation .details-chat {
+    margin-top: -8px;
+}
+
+#navigation .message-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #323338;
+}
+
+#navigation .divider-chat {
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+#navigation .modal-body {
+    overflow-y: scroll;
+    max-height: 175px
+}
+
+#navigation .modal-content {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(68, 68, 79, 0.1);
+    border-radius: 13px;
+    border: none;
+}
+
+#navigation .modal-dialog {
+    position: fixed;
+    bottom: 28px;
+    right: 8px;
+    padding-left: 8px;
+    margin: 0;
+    max-width: 331px;
+}
+
+/*------------------------------------
+           Scrollbar Chat
+------------------------------------*/
+
+#navigation .modal-body::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    scroll-margin-left: 10px;
+
+}
+
+#navigation .modal-body::-webkit-scrollbar-thumb {
+    background: #D6D6D6;
+    border-radius: 30px;
+    margin-left: 50px;
+    height: 93px;
+}
+
+#navigation .modal-body::-webkit-scrollbar-track {
+    box-shadow: inset 0 124px 0px transparent;
+    border-radius: 10px;
+}
+
+
+#navigation .modal-body::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+
+}
+
+#navigation .modal-body::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 4px;
+    margin-right: 20px;
+
+
+}
+
+#navigation .modal-body::-webkit-scrollbar-corner {
+    display: none;
+}
+
+
+#navigation .message-send {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 1rem;
+    gap: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    align-items: baseline;
+}
+
+#navigation .input-chat {
+    background: #FFFFFF;
+    height: 35px;
+    border: 1px solid #E6E9EF;
+    border-radius: 4px;
+    width: 95%;
+    padding-left: 10px;
+
+}
+
+#navigation .input-chat::placeholder {
+    font-family: Switzer-Extralight;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 125%;
+}
+
+#navigation .input-chat:focus {
+    outline: none;
+}
+
+#navigation .style-input-file,
+.send {
+    border: 1px solid #E6E9EF;
+    width: 26px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#navigation .input-file {
+    display: none;
+
+}
+
+#navigation .picture-send-file,
+.picture-transmit {
+    width: 10px;
+    cursor: pointer;
+}
+
+#navigation .file {
+    position: relative;
+}
+
+#navigation .add-file {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 8px;
+}
+
+#navigation .send {
+    position: relative;
+}
+
+#navigation .picture-transmit {
+    position: absolute;
+    top: 6px;
+    left: 6.5px;
+    cursor: pointer;
+}
+
+#navigation .send-text {
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    right: 26px;
+    top: 25px;
+}
+
+#navigation .text-here {
+    width: 88%;
+}
+
+#navigation .border-chat {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    opacity: initial;
+    border: 1px solid #F3F3F3;
+}
+
+#navigation .details-time {
+    margin-top: -8px;
+}
+
+#navigation .btn-close:focus {
+    box-shadow: none;
+}
+
+@media(max-width :991px) {
+
+    #navigation .doctor-logged {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width : 350px) {
+    #navigation .send-text {
+        right: 16px;
+    }
+
+    #navigation .chat-details {
+        flex-direction: column;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# 1- Page Index
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Doctor
+--------------------------------------------------------------*/
+#doctor .our-doctor {
+    position: relative;
+}
+
+#doctor .title-doctor {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#doctor .take-doctor {
+    background: #0CB8B6;
+    height: fit-content;
+}
+
+#doctor .main-doctor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#doctor .doctor-drawing {
+    margin-top: 18px;
+}
+
+#doctor .find-all-doctor {
+    width: 30%;
+}
+
+#doctor .find-doctor {
+    margin-top: 44px;
+    margin-bottom: 36px;
+}
+
+#doctor .form-search {
+    display: flex;
+    gap: 11px;
+}
+
+#doctor .input-city {
+    width: 100%;
+    height: 64px;
+    background-image: url('../img/location.svg');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    padding-left: 35px;
+
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    background-color: #fdfdfe;
+}
+
+#doctor .input-governorate {
+    width: 100%;
+    height: 64px;
+    background-image: url('../img/location.svg');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    padding-left: 35px;
+
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    background-color: #fdfdfe;
+}
+
+#doctor .form-control:focus {
+    box-shadow: none;
+}
+
+#doctor .dropdown-toggle::after {
+    content: none;
+}
+
+#doctor .btn-speciality {
+    width: 100%;
+    height: 64px;
+    background-color: #fdfdfe;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6C757D;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+}
+
+#doctor .btn-speciality p {
+    margin: 0;
+}
+
+#doctor .dropdown {
+    position: relative;
+}
+
+#doctor .icon-arrow {
+    position: absolute;
+    left: 85%;
+    top: 32%;
+
+
+}
+
+#doctor .input-date {
+    width: 100%;
+    height: 64px;
+    background-image: url('../img/date-input.svg');
+    background-position: 18px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    padding-left: 50px;
+
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    background-color: #fdfdfe;
+}
+
+
+#doctor .btn-search {
+    background: #0CB8B6;
+    box-shadow: -5px 50px 74px -4px rgba(141, 141, 141, 0.1), inset 0px 0px 1px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    width: 112px;
+    height: 64px;
+    border: none;
+}
+
+#doctor .flatpickr-wrapper {
+    width: 100%;
+}
+
+.flatpickr-day.selected {
+    background: #0CB8B6 !important;
+    border-color: #0CB8B6 !important
+}
+
+.flatpickr-day.today {
+    border-color: #0CB8B6 !important
+}
+
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
+
+}
+
+.flatpickr-current-month input.cur-year {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover svg,
+.flatpickr-months .flatpickr-next-month:hover svg {
+    fill: #0CB8B6 !important
+}
+
+#doctor .city {
+    width: 12.5%;
+}
+
+#doctor .governorate {
+    width: 13.9%;
+}
+
+#doctor .speciality {
+    width: 21.6%;
+}
+
+#doctor .calendar-date {
+    width: 17.5%;
+}
+
+#doctor .style-dropdown-menu {
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 125px;
+}
+
+#doctor .style-dropdown-menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6C757D;
+
+}
+
+#doctor .dropdown-item:active {
+    background: #0CB8B6;
+    color: #000000
+}
+
+#doctor .form-control,
+.hour-appointment {
+    cursor: pointer;
+}
+
+@media(max-width:1100px) {
+    #doctor .form-search {
+        flex-direction: column;
+    }
+
+    #doctor .city {
+        width: 100%;
+    }
+
+    #doctor .governorate {
+        width: 100%;
+    }
+
+    #doctor .speciality {
+        width: 100%;
+    }
+
+    #doctor .calendar-date {
+        width: 100%;
+
+    }
+
+    #doctor .icon-arrow {
+        left: 95%;
+        transform: translateX(-100%);
+    }
+
+    #doctor .btn-search {
+        width: 100%;
+    }
+}
+
+@media(max-width :768px) {
+    #doctor .find-all-doctor {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #doctor .main-doctor {
+        flex-direction: column;
+
+    }
+
+    #doctor .doctor-drawing {
+        display: none;
+    }
+
+    #doctor .title-doctor {
+        margin-top: 50px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+# Section Result
+--------------------------------------------------------------*/
+
+#result .digit-result {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+#result .online-result {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #968B8B;
+}
+
+#result .result-doctor {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 45px;
+}
+
+
+#result .calendar-appointment {
+    width: 45%;
+}
+
+#result .list-doctor {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-right: 14px;
+    padding-left: 32px;
+    width: 56%;
+    padding-bottom: 20px;
+}
+
+#result .details-doctor {
+    display: flex;
+    padding-top: 20px;
+    gap: 18px;
+}
+
+#result .picture-of-doctor {
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#result .information-doctor {
+    text-align: center;
+}
+
+#result .style-doctor {
+    margin-bottom: 15px;
+}
+
+#result .distance {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #495068;
+}
+
+#result .name-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#result .specefic-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin-bottom: 6px !important;
+    margin: 0;
+}
+
+#result .information-location {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#result .description-adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545A70;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+#result .experience-of-doctor,
+.medical-consultation,
+.use-cnam {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#result .year-experience,
+.doctor-consultation,
+.with-cnam {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    color: #495068;
+}
+
+#result .experience {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#result .all-expertise {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#result .btn-expertise {
+    padding: 6px 12px;
+    background: rgba(12, 184, 182, 0.12);
+    border-radius: 5px;
+    text-decoration: none;
+    height: fit-content;
+}
+
+#result .name-expertise {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0CB8B6;
+    margin: 0;
+}
+
+#result .btn-appointment-day {
+    padding: 11px 16px;
+    background: #0CB8B6;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#result .take-appointment-day {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+/*Calendar */
+#result .take-appointment {
+    padding: 22px 0px 16px 36px;
+}
+
+#result .appointment-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #000000;
+}
+
+#result .style-divider {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#result .calendar {
+    display: flex;
+}
+
+#result .appointment {
+    width: 100%;
+    height: 287px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 20px;
+
+}
+
+#result .date-day {
+    width: 14%;
+}
+
+#result .day {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#result .time {
+    display: flex;
+
+    justify-content: space-around;
+    margin-bottom: 4px;
+
+}
+
+#result .hour-appointment {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0CB8B6;
+    width: 54px;
+    height: 30px;
+    position: relative;
+    background: rgba(12, 184, 182, 0.12);
+    border-radius: 5px;
+
+}
+
+#result .hour-appointment p {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#result .arrow-previous,
+.arrow-next {
+    width: 4%;
+}
+
+#result .date-appointment {
+    width: 92%;
+}
+
+#result .date-day p:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+#result .date-day p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #77899E;
+    margin: 0;
+}
+
+#result .image-previous {
+    margin-top: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+#result .image-next {
+    margin-top: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+#result .no-time {
+    background: rgba(158, 158, 158, 0.12);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #968B8B;
+}
+
+#show-appointment {
+    display: none;
+}
+
+#body-times {
+    height: 202px;
+    overflow: hidden;
+}
+
+#result .times {
+    margin-top: 12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+/*------------------------------------
+           Scrollbar Calendar
+------------------------------------*/
+
+#result .times::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    scroll-margin-left: 10px;
+
+}
+
+#result .times::-webkit-scrollbar-thumb {
+    background: #D6D6D6;
+    border-radius: 30px;
+    margin-left: 50px;
+    height: 93px;
+}
+
+#result .times::-webkit-scrollbar-track {
+    box-shadow: inset 0 124px 0px transparent;
+    border-radius: 10px;
+}
+
+
+#result .times::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+
+}
+
+#result .times::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 4px;
+    margin-right: 20px;
+
+
+}
+
+#result .times::-webkit-scrollbar-corner {
+    display: none;
+}
+
+#result .time-tables {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #33485B;
+    margin-top: 30px;
+}
+
+#result .availble-appointment {
+    background: #0CB8B6;
+    border-radius: 80px;
+    padding: 20px 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#result .availble-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#result .empty-calendar-danger {
+    background: rgba(184, 12, 12, 0.12);
+    border-radius: 5px;
+    position: relative;
+}
+
+#result .empty-calendar {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#result .icon-no-calendar {
+    margin-bottom: 10px;
+}
+
+
+#result .no-appointment {
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 12px 30px;
+    display: flex;
+    width: 187px;
+    height: 40px;
+    margin-left: 8px;
+
+}
+
+#result .off-appointment {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-left: 8px;
+}
+
+#result .rdv-appointment {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+#result .empty-calendar-success {
+    background: rgba(12, 184, 182, 0.12);
+    border-radius: 5px;
+    position: relative;
+}
+
+#result .next-appointment {
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 12px 15px;
+    display: flex;
+    width: 187px;
+    height: 40px;
+
+}
+
+@media(max-width:1440px) {
+    #result .calendar-appointment {
+        width: 45%;
+    }
+}
+
+@media(max-width:1200px) {
+
+    #result .calendar-appointment {
+        width: 50%;
+    }
+}
+
+
+@media(max-width :991px) {
+    #result .result-doctor {
+        flex-direction: column;
+    }
+
+    #result .list-doctor {
+        width: 100%;
+    }
+
+    #result .calendar-appointment {
+        width: 100%;
+        position: inherit;
+    }
+
+    #result .number-result {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media(max-width :768px) {
+    #result .details-doctor {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    #result .description-adress {
+        text-align: left;
+    }
+
+
+    #result .our-information-doctor {
+        text-align: center;
+    }
+
+    #result .all-expertise,
+    .btn-expertise,
+    .btn-appointment-day {
+        width: 100%;
+    }
+
+    #result .our-information-doctor {
+        margin-bottom: 15px;
+    }
+
+    #result .year-experience,
+    .doctor-consultation,
+    .with-cnam {
+        text-align: left;
+    }
+
+    #result .list-doctor {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    #result .times {
+        margin-top: 2px;
+    }
+}
+
+/*--------------------------------------------------------------
+# 2- Page Doctor Details 
+--------------------------------------------------------------*/
+#details__doctor {
+    margin-top: 28px;
+}
+
+#details__doctor .doctor {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+#details__doctor .about-doctor {
+    display: flex;
+    gap: 18px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+#details__doctor .doctor-layout {
+    width: 56%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-right: 14px;
+    padding-left: 32px;
+}
+
+#details__doctor .calendar-appointment {
+    width: 35%;
+    height: fit-content;
+    position: sticky;
+
+    top: 15px;
+}
+
+#details__doctor .doctor-picture {
+    width: 126px;
+    height: 154px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#details__doctor .name-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#details__doctor .medical-specialties {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+}
+
+#details__doctor .doctor-adress {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#details__doctor .adress-location {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545A70;
+}
+
+#details__doctor .details-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#details__doctor .about-experience,
+.about-email,
+.about-medical-consultation,
+.about-phone-number,
+.about-cnam {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    width: 45%;
+    margin-bottom: 5px;
+}
+
+
+#details__doctor .experience,
+.email,
+.consultation,
+.phone-number,
+.cnam {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+
+}
+
+#details__doctor .btn-appointment-calendar {
+    padding: 9px 15px;
+    background-color: #0CB8B6;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#details__doctor .appointment-text-calendar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+#details__doctor .doctor-presentation {
+    display: flex;
+    gap: 10px;
+}
+
+#details__doctor .btn-appointment-calendar {
+    display: none;
+}
+
+#details__doctor .presentation {
+    margin-top: 20px;
+}
+
+#details__doctor .title-presentation {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#details__doctor .doctor-synopsis {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545A70;
+}
+
+#details__doctor .expertise {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .doctor-expertise {
+    display: flex;
+    gap: 10px;
+
+}
+
+#details__doctor .title-expertise {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000
+}
+
+#details__doctor .all-expertise {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#details__doctor .btn-expertise {
+    padding: 6px 12px;
+    background: rgba(12, 184, 182, 0.12);
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+#details__doctor .name-expertise {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0CB8B6;
+    margin: 0;
+}
+
+#details__doctor .all-diploms {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+#details__doctor .university-diplomas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .details-diplom {
+    display: flex;
+    padding-left: 12px;
+    margin-top: 28px;
+    gap: 22px;
+}
+
+#details__doctor .logo-university {
+    width: 63px;
+    height: 63px;
+    border-radius: 11px;
+}
+
+#details__doctor .name-university {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4D4F60;
+    margin: 0;
+    margin-bottom: 6px;
+
+}
+
+#details__doctor .location-university {
+    display: flex;
+    gap: 8px;
+}
+
+#details__doctor .image-pin-location {
+    vertical-align: baseline;
+}
+
+#details__doctor .adress-university {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #595959;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#details__doctor .all-degree {
+    margin-top: 30px;
+}
+
+#details__doctor .degree {
+    margin-top: 22px;
+    position: relative;
+}
+
+#details__doctor .degree::before {
+    content: "";
+    position: absolute;
+    top: calc(calc(-0.1rem + -0.2rem) + 0.8rem + 0.8rem);
+    margin-left: calc(10em - 215.5px);
+    height: calc(100% - (2 * 0.3rem));
+    width: 1px;
+    background-color: #B2B2B2;
+}
+
+#details__doctor .degree:nth-last-child(-n+1)::before {
+    visibility: hidden;
+}
+
+#details__doctor .title-diplom {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #393939;
+
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+#details__doctor .period {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #A1A1A1;
+
+}
+
+#details__doctor .description-diplom {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B1B1B1;
+}
+
+#details__doctor .experience-doctor {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .experience-section {
+    display: flex;
+    gap: 10px;
+}
+
+#details__doctor .title-experience {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .experience-location {
+    display: flex;
+    gap: 22px;
+    margin-top: 28px;
+}
+
+#details__doctor .logo-hospital {
+    border: 0.25px solid #AFAFAF;
+    border-radius: 11px;
+    width: 63px;
+    height: 62px;
+}
+
+#details__doctor .job {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4D4F60;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+#details__doctor .period-of-experience {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+#details__doctor .year {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #595959;
+    margin: 0;
+
+}
+
+#details__doctor .hospital-location {
+    display: flex;
+    gap: 8px;
+}
+
+#details__doctor .details-adress-hospital {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    color: #595959;
+    margin: 0;
+}
+
+#details__doctor .description-experience {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B1B1B1;
+    margin-top: 8px;
+}
+
+#details__doctor .price {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .price-doctor {
+    display: flex;
+    gap: 10px;
+}
+
+#details__doctor .cost {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .all-prices {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 26px;
+}
+
+#details__doctor .fee {
+    width: 28%;
+    border: 1px solid #0CB8B6;
+    border-radius: 20px;
+    text-align: center;
+    padding: 22px;
+}
+
+#details__doctor .money {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+#details__doctor .skill {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #545A70;
+    margin: 0;
+}
+
+#details__doctor .picture-hospital {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .notion-picture {
+    display: flex;
+    gap: 10px;
+}
+
+#details__doctor .view {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .image-hospital {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    overflow: hidden;
+}
+
+#details__doctor .view-hospital {
+    width: 208px;
+    height: 172px;
+    border-radius: 17px;
+    object-fit: cover;
+}
+
+#details__doctor .map {
+    height: 180px;
+    border-radius: 12px;
+}
+
+#details__doctor .tracking {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .view-tracking {
+    display: flex;
+    gap: 10px;
+}
+
+#details__doctor .pin-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .pin-adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545A70;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+
+#details__doctor .schedules {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#details__doctor .schedules-contact {
+    display: flex;
+    gap: 10px;
+
+}
+
+#details__doctor .contact {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+#details__doctor .appoint {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+#details__doctor .hours-opening {
+    width: 38%;
+}
+
+#details__doctor .emergency-contact,
+.contact-details {
+    width: 25%;
+}
+
+#details__doctor .open,
+.emergency,
+.details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #37B58F;
+}
+
+#details__doctor .day-hour {
+    display: flex;
+    justify-content: space-between
+}
+
+#details__doctor .day,
+.hour,
+.emergency-phone,
+.emergency-email {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #545A70;
+    word-break: break-all;
+}
+
+/*Calendar */
+#details__doctor .take-appointment {
+    padding: 22px 0px 16px 36px;
+}
+
+#details__doctor .appointment-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #000000;
+}
+
+#details__doctor .style-divider {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#details__doctor .calendar {
+    display: flex;
+}
+
+#details__doctor .appointment {
+    width: 100%;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+#details__doctor .date-day {
+    width: 14%;
+}
+
+#details__doctor .day {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#details__doctor .time {
+    display: flex;
+
+    justify-content: space-around;
+    margin-bottom: 4px;
+
+}
+
+#details__doctor .hour-appointment {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0CB8B6;
+    width: 54px;
+    height: 30px;
+    position: relative;
+    background: rgba(12, 184, 182, 0.12);
+    border-radius: 5px;
+
+}
+
+#details__doctor .hour-appointment p {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#details__doctor .arrow-previous,
+.arrow-next {
+    width: 4%;
+}
+
+#details__doctor .date-appointment {
+    width: 92%;
+}
+
+#details__doctor .date-day p:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+#details__doctor .date-day p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #77899E;
+    margin: 0;
+}
+
+#details__doctor .image-previous {
+    margin-top: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+#details__doctor .image-next {
+    margin-top: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+#details__doctor .no-time {
+    background: rgba(158, 158, 158, 0.12);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #968B8B;
+}
+
+#show-appointment {
+    display: none;
+}
+
+#details__doctor .times {
+    margin-top: 12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+#details__doctor .display-picture {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #33485B;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#details__doctor .availble-appointment {
+    background: #0CB8B6;
+    border-radius: 80px;
+    padding: 20px 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#details__doctor .availble-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/*------------------------------------
+           Scrollbar Calendar
+------------------------------------*/
+
+#details__doctor .times::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    scroll-margin-left: 10px;
+
+}
+
+#details__doctor .times::-webkit-scrollbar-thumb {
+    background: #D6D6D6;
+    border-radius: 30px;
+    margin-left: 50px;
+    height: 93px;
+}
+
+#details__doctor .times::-webkit-scrollbar-track {
+    box-shadow: inset 0 124px 0px transparent;
+    border-radius: 10px;
+}
+
+
+#details__doctor .times::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+
+}
+
+#details__doctor .times::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 4px;
+    margin-right: 20px;
+
+
+}
+
+#details__doctor .times::-webkit-scrollbar-corner {
+    display: none;
+}
+
+#removeImage {
+    display: none;
+}
+
+#showImage {
+    display: none;
+}
+
+@media(max-width:1440px) {
+    #details__doctor .calendar-appointment {
+        width: 45%;
+    }
+}
+
+@media(max-width : 1200px) {
+    #details__doctor .details-contact {
+        flex-direction: column;
+    }
+
+    #details__doctor .about-experience,
+    .about-email,
+    .about-medical-consultation,
+    .about-phone-number,
+    .about-cnam {
+        width: 100%;
+    }
+
+    .main-container {
+        max-width: 98%;
+    }
+
+    #details__doctor .hours-opening {
+        width: 100%;
+    }
+
+    #details__doctor .emergency-contact,
+    .contact-details {
+        width: 100%;
+    }
+
+    #details__doctor .appoint {
+        flex-direction: column;
+    }
+
+    #details__doctor .calendar-appointment {
+        width: 50%;
+    }
+
+    #details__doctor .day-hour {
+        justify-content: inherit;
+    }
+
+    #details__doctor .hour {
+        margin-left: 12px;
+    }
+}
+
+@media(max-width :991px) {
+    #details__doctor .doctor {
+        flex-direction: column;
+    }
+
+    #details__doctor .doctor-layout,
+    .calendar-appointment {
+        width: 100%;
+    }
+
+    #details__doctor .calendar-appointment {
+        width: 100%;
+        position: inherit;
+    }
+
+    #details__doctor .hours-opening,
+    .emergency-contact,
+    .contact-details {
+        text-align: left;
+    }
+
+    #details__doctor .appointment-text {
+        text-align: left;
+    }
+
+    #details__doctor .take-appointment {
+        padding: 22px 0px 15px 15px;
+    }
+
+    #details__doctor .btn-appointment-calendar {
+        display: inherit;
+    }
+}
+
+@media(max-width :768px) {
+    #details__doctor .about-doctor {
+        flex-direction: column;
+    }
+
+    #details__doctor .doctor {
+        text-align: center;
+    }
+
+    #details__doctor .doctor-layout {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #details__doctor .adress-location {
+        text-align: left;
+    }
+
+    .bullet {
+        display: none;
+    }
+
+    #details__doctor .degree::before {
+        display: none;
+    }
+
+    #details__doctor .details-diplom {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #details__doctor .experience-location {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #details__doctor .all-prices {
+        flex-direction: column;
+    }
+
+    #details__doctor .fee {
+        width: 100%;
+    }
+
+    #details__doctor .image-hospital {
+        flex-direction: column;
+    }
+
+    #details__doctor .view-hospital {
+        width: 100%;
+    }
+
+    #details__doctor .pin-adress {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #details__doctor .doctor-synopsis,
+    .experience,
+    .email,
+    .consultation,
+    .phone-number,
+    .cnam {
+        text-align: left;
+    }
+
+    #all-others-images {
+        display: none;
+    }
+
+    #details__doctor .availble-appointment {
+        padding: 12px 8px;
+    }
+
+    #showImage {
+        display: inherit;
+    }
+}
+
+@media(max-width : 450px) {
+    #details__doctor .appointment {
+        height: 365px;
+    }
+}
+
+@media(max-width : 391px) {
+    #details__doctor .university-diplomas {
+        text-align: initial;
+    }
+
+
+    #details__doctor .availble-appointment p {
+        font-size: 16px;
+    }
+
+
+}
+
+/*--------------------------------------------------------------
+# 3 - Page Profile
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Section Profil
+--------------------------------------------------------------*/
+#profil .details-profil {
+    margin-top: 32px;
+}
+
+#profil .project-doctor {
+    width: 98%;
+    margin-bottom: 38px;
+}
+
+#profil .style-profil {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2C2C37;
+}
+
+#profil .tab {
+    overflow: hidden;
+    padding: 55px 30px 25px 30px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+#profil .btn-tab {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#profil .tabcontent {
+    display: none;
+}
+
+#profil .btn-tab .tablinks {
+    background-color: inherit;
+    /* float: left; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 5px;
+    color: #797E8A;
+}
+
+#profil .btn-tab button.active {
+    border-bottom: 2px solid #0CB8B6;
+    color: #069A8E !important;
+}
+
+#profil .tab-hr {
+    background: #E6E8EA;
+    margin: 0;
+    width: 98%;
+    opacity: 0.08;
+}
+
+#profil .form-login {
+    text-align: center;
+}
+
+#profil .label-inputs {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #61666F;
+    margin-bottom: 18px;
+}
+
+#profil .style-input:focus {
+    outline: none;
+}
+
+#profil .label-style-text {
+    float: left;
+}
+
+#profil .number-login,
+.email-login,
+.password-login {
+    max-width: 43.6%;
+    margin: 0 auto;
+}
+
+#profil .input-phone {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/phone-1.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .input-email {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/mail.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .input-password {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/loock.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .input-with-edit {
+    position: relative;
+
+}
+
+#profil .icon-edit {
+    position: absolute;
+    top: 60px;
+    right: 12px;
+    cursor: pointer;
+}
+
+#profil .icon-edit-input {
+    position: absolute;
+    top: 50px;
+    right: 6px;
+    cursor: pointer;
+    width: 25px;
+    border: none;
+}
+
+#profil .icon-edit-input:focus {
+    box-shadow: none
+}
+
+#profil .btn-save {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0CB8B6;
+    border-radius: 12px;
+    padding: 14px 5px;
+    border: none;
+    width: 55.5%;
+    margin-top: 85px;
+}
+
+#profil .input-identify {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil .input-part-1 {
+    width: 48.8%;
+}
+
+#profil .input-part-2 {
+    width: 48.8%;
+}
+
+#profil .form-identify {
+    text-align: center;
+}
+
+#profil .default-style {
+    width: 100%;
+}
+
+#profil .input-phone {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/icon-user.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .birth-day-age {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil .birth-day,
+.age {
+    width: 46%;
+}
+
+#profil .input-calendar {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/calendar-birthday.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+}
+
+#profil .input-age {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/icon-user.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+}
+
+#profil .input-adress {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/location.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .flatpickr-wrapper {
+    position: initial;
+    display: initial;
+
+}
+
+#profil .input-assurance {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil .canam {
+    width: 100%;
+}
+
+#profil .input-cnam {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/cnam-input.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .cnam-validation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil .start-date,
+.end-date {
+    width: 46%;
+}
+
+#profil .input-assurance-private {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/cnam-input.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+
+}
+
+#profil .input-other-information {
+    width: 100%;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-image: url('../img/cnam-input.svg');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+}
+
+#profil .my-relatives {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 74px 60px;
+    overflow-y: scroll;
+    height: 491px
+}
+
+#profil .human {
+    display: flex;
+    gap: 16px;
+}
+
+#profil .image-human {
+    width: 115px;
+    height: 159px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#profil .name-human {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#profil .email-human {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+#profil .date-of-birth,
+.number-phone {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+#profil .details-date,
+.details-number-phone {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+
+}
+
+#profil .btn-edit {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0CB8B6;
+    width: 130px;
+    height: 46px;
+    background: #E1F3F2;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+#profil .icon-edit-relative {
+    margin-left: 8px;
+}
+
+
+/*------------------------------------
+Scrollbar Table my-relatives
+------------------------------------*/
+
+#profil .my-relatives::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    scroll-margin-left: 10px;
+
+}
+
+#profil .my-relatives::-webkit-scrollbar-thumb {
+    background: #D6D6D6;
+    border-radius: 30px;
+    margin-left: 50px;
+    height: 93px;
+}
+
+#profil .my-relatives::-webkit-scrollbar-track {
+    box-shadow: inset 0 124px 0px transparent;
+    border-radius: 10px;
+}
+
+
+#profil .my-relatives::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+
+}
+
+#profil .my-relatives::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 4px;
+    margin-right: 20px;
+
+
+}
+
+#profil .my-relatives::-webkit-scrollbar-corner {
+    display: none;
+}
+
+
+@media(max-width : 1200px) {
+    #profil .project-doctor {
+        width: 100%;
+    }
+}
+
+@media(max-width : 991px) {
+
+    #profil .number-login,
+    .email-login,
+    .password-login {
+        max-width: 100%;
+    }
+
+    #profil .btn-save {
+        width: 100%;
+    }
+
+    #profil .tab {
+        padding: 55px 10px 25px 10px;
+    }
+
+    #profil .details-profil {
+        padding: 0 10px;
+    }
+
+    #profil .input-identify {
+        flex-direction: column;
+    }
+
+    #profil .input-part-1 {
+        width: 100%;
+
+    }
+
+    #profil .input-part-2 {
+        width: 100%;
+    }
+
+    #profil .input-assurance {
+        flex-direction: column;
+    }
+
+    #profil .human {
+        gap: 8px;
+    }
+
+    #profil .my-relatives {
+        gap: 60px 10px;
+    }
+}
+
+@media(max-width :768px) {
+    #profil .btn-tab .tablinks {
+        padding: 14px 4px;
+    }
+
+    #profil .btn-tab {
+        gap: 10px;
+
+    }
+
+    #profil .birth-day-age {
+        flex-direction: column;
+    }
+
+    #profil .birth-day,
+    .age,
+
+    .end-date {
+        width: 100%;
+    }
+
+    #profil .start-date {
+        width: 100%;
+    }
+
+    #profil .cnam-validation {
+        flex-direction: column;
+    }
+
+    #profil .my-relatives {
+        display: block;
+    }
+
+    #profil .human {
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #profil .date-of-birth,
+    .number-phone {
+        justify-content: center;
+    }
+
+    #profil .picture-of-human {
+        margin-bottom: 10px;
+    }
+
+    #profil .my-relatives {
+
+        overflow-x: scroll;
+
+    }
+
+    #profil .my-relatives::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        scroll-margin-left: 10px;
+
+    }
+}
+
+/*--------------------------------------------------------------
+# 4- Page Join Appointment
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Appointment
+--------------------------------------------------------------*/
+#appointment .all-appointment {
+    display: flex;
+    gap: 53px;
+    padding-left: 12px;
+    margin-top: 38px;
+}
+
+#appointment .my-appointments {
+    width: 29.3%;
+}
+
+#appointment .appointment-details {
+    width: 64%;
+}
+
+#appointment .appointments-remaining {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 28px;
+
+}
+
+#appointment .btn-appointments {
+    background-color: #ffffff;
+    display: flex;
+    gap: 9px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 12px 9px;
+    height: 72px;
+
+
+}
+
+#appointment .comming {
+    text-decoration: none;
+    height: 46px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#appointment .comming p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #788492;
+    margin: 0;
+
+}
+
+#appointment .tablinks.active-meeting {
+    background: #E1F3F2;
+    border-radius: 5px;
+}
+
+#appointment .tablinks.active-meeting p {
+    color: #0CB8B6;
+
+}
+
+#appointment .card-meeting {
+    display: none;
+}
+
+#appointment .card-doctor {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 23px;
+    padding: 20px 10px 18px 22px;
+}
+
+#appointment .active-card-doctor {
+    background: #FCFFFF;
+    border: 1px solid #0CB8B6
+}
+
+#appointment .image-of-doctor {
+    width: 81px;
+    height: 81px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#appointment .name-item-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#appointment .medical-specialty {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+}
+
+#appointment .date-meeting,
+.patient-detail,
+.meeting-online {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+#appointment .date-of-meeting,
+.name-patient,
+.meeting-online {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #495068;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+#appointment .icon-meeting-online {
+    margin-top: 3px;
+}
+
+#appointment .pass-appointment {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    max-width: 210px;
+    height: 35px;
+    background: rgba(46, 12, 184, 0.12);
+    border-radius: 5px;
+}
+
+#appointment .pass-meeting {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #2E0CB8;
+    margin: 0;
+}
+
+#appointment .notification {
+    background-color: #E94034;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 5px 9px;
+    top: -5px;
+    right: 0;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+#appointment .comming-btn {
+    background: rgba(12, 184, 19, 0.12);
+}
+
+#appointment .comming-text {
+    color: #0CB813;
+}
+
+#appointment .move-appointment {
+    background: rgba(12, 132, 184, 0.12);
+}
+
+#appointment .move-appointment-text {
+    color: #0C84B8;
+}
+
+
+#appointment .not-done {
+    background: rgba(184, 146, 12, 0.12);
+}
+
+#appointment .not-done-text {
+    color: #B8920C;
+
+}
+
+#appointment .canceled-appointment {
+    background: rgba(184, 74, 12, 0.12);
+}
+
+#appointment .canceled-appointment-text {
+    color: #B84A0C;
+
+}
+
+#appointment .meeting-patient {
+    width: 50%;
+}
+
+#appointment .btn-patient {
+    width: 276px;
+    height: 44px;
+    background-color: #fdfdfe;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    float: right;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 18px;
+
+}
+
+#appointment .dropdown-toggle::after {
+    content: none;
+}
+
+
+#appointment .style-dropdown-menu {
+    width: 276px;
+    overflow-y: scroll;
+    max-height: 125px;
+
+}
+
+#appointment .icon-arrow {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+}
+
+#appointment .style-dropdown-menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6C757D;
+
+}
+
+#appointment .patient-menu {
+    display: flex;
+    gap: 22px;
+}
+
+#appointment .patient-menu p {
+    margin: 0;
+}
+
+#appointment .dropdown-item:active {
+    background: #0CB8B6;
+    color: #000000
+}
+
+#appointment .meeting-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+}
+
+#appointment .details-meeting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+
+#appointment .time-meeting {
+    background: #E1F3F2;
+    border-radius: 20px 20px 0px 0px;
+    height: 42px;
+    position: relative;
+
+}
+
+#appointment .time-exactly {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+}
+
+#appointment .time-date {
+    display: flex;
+    gap: 8px;
+    left: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+#appointment .unit {
+    display: flex;
+    gap: 16px;
+    padding-left: 40px;
+}
+
+#appointment .picture-of-doctor {
+    width: 81px;
+    height: 81px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#appointment .name-user {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#appointment .adress-phone-speciality {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#appointment .speciality-of-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin: 0;
+}
+
+#appointment .phone-doctor,
+.adress-doctor {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+
+}
+
+
+#appointment .icon {
+    margin-top: -3px;
+}
+
+#appointment .call-doctor,
+.loacation-adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545A70;
+    margin-bottom: 3px
+}
+
+#appointment .element {
+    padding-top: 26px;
+    position: relative;
+}
+
+#appointment .doctor-feature {
+    background-color: #ffffff;
+}
+
+#appointment .join-meeting {
+    width: 210px;
+    height: 30px;
+    background: #0CB8B6;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#appointment .join-appointment {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#appointment .meeting-start {
+    background: rgba(12, 184, 163, 0.12);
+}
+
+#appointment .meeting-start-text {
+    color: #0CB8A3;
+}
+
+#appointment .notif-chat {
+    position: absolute;
+    cursor: pointer;
+    right: 32px;
+    top: 28px;
+}
+
+#appointment .notification-message {
+    background-color: #E94034;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    top: -8px;
+    right: -15px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+#appointment .hr {
+    width: 93%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 28px;
+    opacity: initial;
+    border: 1px solid #EFEFEF;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#appointment .operation-appointment {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+#appointment .moved-meeting,
+.canceled-meeting {
+    display: flex;
+    gap: 32px;
+    align-items: baseline;
+}
+
+#appointment .text-move {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0CB8B6;
+    margin: 0;
+    cursor: pointer;
+}
+
+#appointment .text-cancel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #E94A54;
+    margin: 0;
+    cursor: pointer;
+}
+
+#appointment .doctor-feature {
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 45px;
+}
+
+#appointment .input-upload {
+    opacity: 0;
+    overflow: hidden;
+    z-index: 999999;
+    width: 152px;
+    height: 30px;
+
+    position: absolute;
+    top: 5px;
+    left: 9px;
+
+}
+
+#appointment .upload {
+    position: relative;
+    background: #0CB8B6;
+    border-radius: 8px;
+    width: 169px;
+    height: 41px;
+
+}
+
+#appointment .label-upload {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+
+
+#appointment .shared-document {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#appointment .text-document {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+}
+
+#appointment .list-document {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 27px 70px 27px 47px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+#appointment .file {
+    display: flex;
+    justify-content: space-between
+}
+
+#appointment .type-document {
+    display: flex;
+    gap: 15px;
+}
+
+#appointment .file-image {
+    width: 51px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 184, 182, 0.1);
+    border-radius: 9px;
+}
+
+#appointment .title-file {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+    color: #333333;
+}
+
+#appointment .date-file {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+    margin-top: -6px;
+}
+
+#appointment .details-file {
+    margin-top: -4px;
+}
+
+
+#appointment .view-file,
+.analyze-file {
+    display: flex;
+    gap: 12px;
+}
+
+#appointment .operation-file {
+    display: flex;
+    gap: 28px;
+}
+
+
+#appointment .text-analyze,
+.text-view {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D98AF
+}
+
+#appointment .icon-view,
+.icon-file,
+.text-view,
+.text-analyze {
+    cursor: pointer;
+}
+
+#appointment .hr-file {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+#appointment .patient-meeting {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1E1E;
+}
+
+#appointment .specific-patient {
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: fit-content;
+    display: flex;
+    gap: 16px;
+    padding: 22px;
+    margin-bottom: 45px;
+}
+
+#appointment .picture-of-patient {
+    width: 81px;
+    height: 81px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#appointment .customer-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#appointment .customer-patient {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#appointment .birth-of-day,
+.location-patient,
+.cnam-patient {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#appointment .id-cnam,
+.birth-day-customer,
+.complet-adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+}
+
+
+#appointment .text-note-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+#appointment .image-medic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#appointment .name-medic {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #413C3B;
+    margin: 0;
+    margin-top: 6px;
+}
+
+
+#appointment .doctor-place {
+    display: flex;
+    justify-content: space-between
+}
+
+
+#appointment .date-note {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #8D98AF;
+}
+
+#appointment .doctor-image-name {
+    display: flex;
+    gap: 12px;
+}
+
+#appointment .details-note {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 22px 22px 15px 22px;
+    margin-bottom: 18px;
+}
+
+
+#appointment .resume-note {
+
+    margin-top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+
+}
+
+@media(max-width : 991px) {
+    #appointment .all-appointment {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    #appointment .my-appointments,
+    .appointment-details {
+        width: 100%;
+    }
+
+    #appointment .appointment-details {
+        width: 100%;
+    }
+
+    #appointment .time-date {
+        left: 10px;
+    }
+}
+
+
+@media (max-width : 768px) {
+    #appointment .card-doctor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #appointment .date-meeting,
+    .patient-detail,
+    .meeting-online {
+
+        justify-content: center
+    }
+
+    #appointment .pass-appointment {
+        margin: 0 auto;
+    }
+
+    #appointment .details-meeting {
+        flex-direction: column;
+    }
+
+    #appointment .meeting-patient {
+        width: 100%;
+    }
+
+    #appointment .input-filed-speciality {
+        float: left;
+    }
+
+    #appointment .unit {
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #appointment .adress-phone-speciality {
+        flex-direction: column;
+    }
+
+    #appointment .phone-doctor,
+    .adress-doctor {
+        justify-content: center;
+    }
+
+    #appointment .join-meeting {
+        margin: 0 auto;
+    }
+
+    #appointment .operation-appointment {
+        flex-direction: column;
+    }
+
+    #appointment .moved-meeting {
+        margin-bottom: 15px;
+    }
+
+    #appointment .moved-meeting,
+    .canceled-meeting {
+        justify-content: center;
+    }
+
+    #appointment .adress-phone-speciality {
+        gap: 2px;
+    }
+
+    #appointment .hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #appointment .input-filed-speciality {
+        float: initial;
+    }
+
+    #appointment .btn-patient,
+    .style-dropdown-menu {
+        width: 100%;
+    }
+
+    #appointment .style-dropdown-menu {
+        width: 100%;
+    }
+
+    #appointment .file {
+        flex-direction: column;
+    }
+
+    #appointment .type-document {
+        flex-direction: column;
+    }
+
+    #appointment .operation-file {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #appointment .text-analyze,
+    .text-view {
+        margin: 0;
+    }
+
+    #appointment .file-image {
+        margin: 0 auto;
+    }
+
+    #appointment .details-file {
+        text-align: center;
+    }
+
+    #appointment .view-file,
+    .analyze-file {
+        justify-content: center;
+    }
+
+    #appointment .shared-document {
+        flex-direction: column;
+    }
+
+    #appointment .upload {
+        width: 100%;
+    }
+
+    #appointment .label-upload {
+        position: relative;
+    }
+
+    #appointment .upload-document {
+        position: absolute;
+        right: 15px;
+    }
+
+    #appointment .specific-patient {
+        flex-direction: column;
+    }
+
+    #appointment .patient-item,
+    .image-of-patient {
+        text-align: center;
+    }
+
+    #appointment .birth-of-day,
+    .location-patient,
+    .cnam-patient {
+        justify-content: center;
+    }
+
+    #appointment .id-cnam,
+    .birth-day-customer,
+    .complet-adress {
+        text-align: initial;
+    }
+
+    #appointment .doctor-place {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #appointment .doctor-image-name {
+        flex-direction: column;
+
+    }
+
+    #appointment .resume-note {
+        margin-top: -2px;
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# 5- Page Dashboard
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Dashboard
+--------------------------------------------------------------*/
+#dashboard .doctor-dashboard {
+    display: flex;
+    gap: 40px;
+    padding-left: 12px;
+    margin-top: 38px;
+}
+
+#dashboard .list-doctor {
+    width: 39.8%;
+}
+
+#dashboard .document-patient {
+    width: 54.2%;
+}
+
+#dashboard .title-liste-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+
+#dashboard .details-meeting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+
+#dashboard .meeting-patient {
+    width: 50%;
+}
+
+#dashboard .dropdown-toggle::after {
+    content: none;
+}
+
+#dashboard .btn-patient {
+    width: 276px;
+    height: 44px;
+    background-color: #fdfdfe;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    float: right;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 18px;
+
+}
+
+#dashboard .patient-menu {
+    display: flex;
+    gap: 22px;
+}
+
+#dashboard .patient-menu p {
+    margin: 0;
+}
+
+#dashboard .icon-arrow {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+}
+
+#dashboard .style-dropdown-menu {
+    width: 276px;
+    overflow-y: scroll;
+    max-height: 125px;
+
+}
+
+#dashboard .style-dropdown-menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6C757D;
+
+}
+
+#dashboard .details-patient {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+}
+
+#dashboard .card-of-doctor {
+    background: #FFFFFF;
+    padding: 20px 14px 32px 32px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#dashboard .doctor-image {
+    width: 81px;
+    height: 81px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#dashboard .top-card {
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .name-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#dashboard .type-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+#dashboard .next-appointment,
+.number-appointment {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#dashboard .next-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+}
+
+#dashboard .number-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+}
+
+
+#dashboard .bottom-card {
+    margin-top: 26px;
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .take-appointment {
+    background: #0CB8B6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    height: 42px;
+
+}
+
+
+#dashboard .take-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#dashboard .consultation-details {
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #0CB8B6;
+    width: 200px;
+    height: 42px;
+
+}
+
+
+#dashboard .consultation-details p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0CB8B6;
+    margin: 0;
+}
+
+#dashboard .selected-card {
+    background: #FCFFFF;
+    border: 1px solid #0CB8B6;
+
+}
+
+#dashboard .paper-patient {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 27px 0px 27px 0px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+
+#dashboard .file-image {
+    width: 51px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 184, 182, 0.1);
+    border-radius: 9px;
+}
+
+#dashboard .type-paper {
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .name-paper {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    margin: 0;
+}
+
+#dashboard .date-upload-paper {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+    margin-top: -6px;
+}
+
+#dashboard .left-details {
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .image-patient {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#dashboard .taked-document p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#dashboard .taked-document {
+    align-items: baseline;
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .row-document {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#dashboard .right-details {
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .patient-name {
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
+
+#dashboard .patient-name p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+}
+
+#dashboard .consult-tag {
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4F41E9;
+}
+
+#dashboard .consult-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+
+}
+
+#dashboard .img-consult {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -6px;
+}
+
+#dashboard .hr {
+    width: 93%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 28px;
+    opacity: initial;
+    border: 1px solid #EFEFEF;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+@media(max-width :1320px) {
+    #dashboard .row-document {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    #dashboard .left-details {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    #dashboard .right-details {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    #dashboard .paper-patient {
+        padding: 27px 15px 27px 15px;
+
+    }
+}
+
+
+@media(max-width :1300px) {
+    #dashboard .bottom-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #dashboard .take-appointment {
+        width: 100%;
+    }
+
+    #dashboard .consultation-details {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media(max-width : 991px) {
+
+
+    #dashboard .list-doctor {
+        width: 100%;
+    }
+
+    #dashboard .document-patient {
+        width: 100%;
+    }
+
+    #dashboard .doctor-dashboard {
+        flex-direction: column;
+    }
+
+    #dashboard .doctor-dashboard {
+        padding-left: 0;
+    }
+
+    #dashboard .image-patient {
+
+        width: 60px;
+        height: 60px;
+
+    }
+}
+
+@media(max-width :768px) {
+    #dashboard .details-meeting {
+        flex-direction: column;
+    }
+
+    #dashboard .meeting-patient {
+        width: 100%;
+    }
+
+    #dashboard .input-filed-speciality {
+        float: initial;
+    }
+
+    #dashboard .btn-patient {
+        width: 100%;
+    }
+
+    #dashboard .style-dropdown-menu {
+        width: 100%;
+    }
+
+    #dashboard .top-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #dashboard .next-appointment,
+    .number-appointment {
+        justify-content: center;
+    }
+
+    #dashboard .card-of-doctor {
+        padding: 20px 14px 32px 14px;
+    }
+
+    #dashboard .file-image,
+    .patient-name {
+        margin: 0 auto;
+    }
+
+    #dashboard .left-details,
+    .right-details {
+        flex-direction: column;
+    }
+
+    #dashboard .type-paper,
+    .patient-name {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #dashboard .patient-name {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #dashboard .taked-document {
+        justify-content: center;
+    }
+
+    #dashboard .piture-space {
+        margin: 0 auto;
+    }
+
+    #dashboard .row-document {
+        flex-direction: column-reverse;
+    }
+
+    #dashboard .img-consult {
+        margin-top: 6px;
+    }
+
+    #dashboard .hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+/*--------------------------------------------------------------
+# 6- Page Home Doctor
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Health
+--------------------------------------------------------------*/
+#health .hero-health {
+    border-radius: 0px 0px 103px 103px;
+    background: #0CB8B6;
+
+}
+
+#health .health-doctor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#health .title-hero-health {
+
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+#health .title-hero-health span:nth-child(1) {
+    color: #fff;
+}
+
+#health .title-hero-health span:nth-child(2) {
+    color: #2B7A79;
+}
+
+#health .form-control:focus {
+    box-shadow: none;
+}
+
+#health .form-control {
+    cursor: pointer;
+}
+
+#health .input-speciality::placeholder {
+    opacity: 0.7;
+}
+
+#health .input-speciality {
+    width: 302px;
+    max-width: 100%;
+    height: 64px;
+    background-image: url('../img/search-input.svg');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCC;
+    padding-left: 35px;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    background-color: #fdfdfe;
+}
+
+#health .input-where-place::placeholder {
+    opacity: 0.7;
+}
+
+#health .input-where-place {
+    width: 155px;
+    max-width: 100%;
+    height: 64px;
+    background-image: url('../img/location.svg');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCC;
+    padding-left: 35px;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    background-color: #fdfdfe;
+}
+
+#health .btn-location {
+    border-radius: 10px;
+    border: 1px solid #0CB8B6;
+    background: #15a19f;
+    padding: 18px;
+
+}
+
+#health .btn-search-doctor {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+#health .style-btn-search-doctor {
+    border-radius: 10px;
+    background: #2B7A79;
+    box-shadow: -5px 50px 74px -4px rgba(141, 141, 141, 0.10), 0px 0px 1px 0px rgba(0, 0, 0, 0.37) inset;
+}
+
+#health .inputs-search-doctors {
+    display: flex;
+    gap: 8px;
+}
+
+#health .img-group-doctor {
+    width: 100%;
+}
+
+#health .arrow-img-style {
+    position: absolute;
+    right: 25px;
+}
+
+@media(max-width : 1100px) {
+    #health .health-doctor {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    #health .search-doctor {
+        width: 100%;
+    }
+
+    #health .inputs-search-doctors {
+        flex-direction: column;
+    }
+
+    #health .input-speciality,
+    .input-where-place {
+        width: 100%;
+    }
+
+    #health .input-where-place {
+        width: 100%;
+
+    }
+}
+
+@media(max-width : 576px) {
+    #health .hero-health {
+        border-radius: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Section Partner Health
+--------------------------------------------------------------*/
+#partner-health {
+    padding-top: 54px;
+}
+
+#partner-health .title-partner {
+    color: #33485B;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+#partner-health .title-partner span {
+    color: #2B7A79;
+}
+
+#partner-health .item-for-carousel {
+    display: flex;
+    align-items: center;
+}
+
+#partner-health .title-item {
+    color: #413C3B;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-right: 70px;
+}
+
+#partner-health .description-item {
+    color: #77899E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 70px;
+}
+
+.owl-carousel .owl-item img {
+    width: 500px !important;
+}
+
+/*Carousel */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: rgba(12, 184, 182, 1) !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #D9D9D9;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+
+@media(max-width : 991px) {
+    #partner-health .title-partner {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    #partner-health .item-for-carousel {
+        flex-direction: column;
+    }
+
+    #partner-health .style-text {
+        padding: 0;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+    }
+
+}
+
+/*--------------------------------------------------------------
+# Section Edoctors Statistics
+--------------------------------------------------------------*/
+
+
+#edoctor-statistics .bg-section-edoctors {
+    background: #263238;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+#edoctor-statistics .title-edoctors {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+}
+
+#edoctor-statistics .title-edoctors span {
+    color: #0CB8B6;
+    line-height: 45px;
+}
+
+#edoctor-statistics .statistics-warraper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#edoctor-statistics .number-statistics {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+
+}
+
+#edoctor-statistics .description-statistics {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+
+}
+
+
+
+#edoctor-statistics .details-statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#edoctor-statistics .icon-statistics {
+    width: 102px;
+    height: 102px;
+}
+
+
+@media(max-width :991px) {
+    #edoctor-statistics .title-edoctors {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+@media(max-width : 768px) {
+    #edoctor-statistics .statistics-warraper {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Section Specialties
+--------------------------------------------------------------*/
+#specialties .our-specialties {
+    margin-top: 50px;
+}
+
+#specialties .title-our-specialties {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #263238;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#specialties .title-our-specialties span {
+    color: #2B7A79;
+}
+
+#specialties .picture-specialty {
+    width: 320px;
+    height: 222px;
+    max-width: 100%;
+    border-radius: 42px;
+    object-fit: cover;
+    box-shadow: 11px 13px 54px 30px #CACACA24;
+
+}
+
+#specialties .specialties-wrraper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+#specialties .card-specialty {
+    background: #fff;
+    width: 320px;
+    max-width: 100%;
+    border-radius: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+#specialties .img-specialty {
+    position: relative;
+}
+
+#specialties .icon-specialty {
+    border-radius: 50%;
+    background: #ECE2D8;
+    width: 74px;
+    height: 74px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+#specialties .icon-specialty img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px !important;
+    height: 44px !important;
+    transform: translate(-50%, -50%);
+}
+
+#specialties .title-specialty {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #28292B;
+
+}
+
+#specialties .details-specialty {
+    padding: 0px 20px 20px 20px;
+}
+
+#specialties .description-specialty {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+#specialties .link-top-specialty {
+    text-align: center;
+}
+
+#specialties .link-top-specialty a {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #0CB8B6;
+
+}
+
+#specialties .link-all-specialty {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#specialties .link-all-specialty a {
+    display: inline-block;
+    width: 348px;
+    max-width: 100%;
+    padding: 20px 0;
+    background-color: #0CB8B6;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#carousel-specialties-mobile {
+    display: none;
+}
+
+#carousel-paramedics-mobile {
+    display: none;
+}
+
+#specialties .width-img  {
+    width: 100% !important;
+}
+
+#specialties .position-text {
+    margin-top: 30px;
+}
+
+@media(max-width :991px) {
+    #specialties .title-our-specialties {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+@media(max-width : 768px) {
+    #carousel-specialties {
+        display: none;
+    }
+
+    #carousel-specialties-mobile {
+        display: initial;
+    }
+
+    #carousel-paramedics {
+        display: none;
+    }
+
+    #carousel-paramedics-mobile {
+        display: initial;
+    }
+
+    #specialties .card-specialty {
+        width: 100%;
+    }
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Section Doctor 
+--------------------------------------------------------------*/
+#doctor .style-reverse-section {
+    flex-direction: row-reverse;
+    margin-bottom: 0 !important;
+}
+#doctor .custom-border {
+   border-radius: 307px 307px 0px 0px !important;
+}
+#doctor .doctor-section {
+    display: flex;
+   margin-top: 65px;
+   margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+#doctor .style-section-doctor {
+    background: #0CB8B61F;
+    padding: 50px 0;
+    border-radius: 308px;
+    margin-top: 80px;
+}
+
+#doctor .img-doctor-section {
+    width: 100%;
+}
+
+#doctor .title-doctor-section {
+    color: #413C3B;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-align: center;
+}
+
+#doctor .title-doctor-section span {
+    color: #2B7A79;
+}
+
+#doctor .description-doctor-section {
+    color: #77899E;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#doctor .data-doctor-section {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#doctor .checked-point {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#doctor .show-utilis {
+    margin-top: 55px;
+}
+
+#doctor .btn-show-utilis {
+    position: relative;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: #2B7A79;
+    box-shadow: -5px 50px 74px -4px rgba(141, 141, 141, 0.10), 0px 0px 1px 0px rgba(0, 0, 0, 0.37) inset;
+    text-decoration: none;
+    padding: 18px 50px;
+    display: block;
+    width: 348px;
+
+    margin-top: 55px;
+}
+
+#doctor .arrow-btn-show-utilis {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+@media(max-width : 1200px) {
+    #doctor .style-section-doctor, .custom-border {
+        border-radius:0px !important;
+       
+     }
+}
+ 
+@media(max-width :991px) {
+    #doctor .doctor-section {
+        flex-direction: column-reverse;
+    }
+
+    #doctor .btn-show-utilis {
+        width: 100%;
+    }
+
+    
+    #doctor .custom-border {
+      
+        margin-bottom: -90px;
+     }
+
+
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# 7- Page Register Doctor
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Section Top Register 
+--------------------------------------------------------------*/
+
+#top-register .bg-color-register {
+    background: #0CB8B6;
+    padding-top: 50px;
+}
+
+#top-register .title-top-register {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+}
+
+#top-register .description-register {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-right: 250px;
+}
+
+#top-register .btn-register {
+    background: rgba(43, 122, 121, 1);
+    width: 185px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+#top-register .content-top-register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-register .register-doctor {
+    padding-bottom: 38px;
+}
+
+@media(max-width : 991px) {
+
+    #top-register .content-top-register {
+        flex-direction: column;
+    }
+
+    #top-register .img-top-register img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #top-register .register-doctor {
+        text-align: center;
+    }
+
+    #top-register .title-top-register {
+        text-align: center;
+    }
+
+    #top-register .description-register {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+@media(max-width :768px) {
+    #top-register .title-top-register {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+# Section Features
+--------------------------------------------------------------*/
+#features .card-wrapper-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+#features .title-features {
+    margin: 60px 0;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: linear-gradient(0deg, #263238, #263238)
+}
+
+#features .title-features span {
+    color: rgba(43, 122, 121, 1);
+}
+
+#features .card-features {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 60px;
+    gap: 26px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#features .top-card-features,
+.top-card-bottom {
+    text-align: center;
+}
+
+#features .img-top-card img {
+    width: 361px;
+    max-width: 100%;
+}
+
+#features .title-top-card {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#features .description-card-features {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(119, 137, 158, 1);
+
+}
+
+#features .btn-card-features {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding: 9px 50px;
+    background: #0CB8B6;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#features .sub-bottom-card-features {
+    margin-top: 60px;
+    text-align: center;
+}
+
+@media(max-width : 991px) {
+    #features .card-wrapper-features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #features .title-features {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    #features .btn-card-features {
+        padding: 9px 25px;
+    }
+
+
+
+    #features .right-details-features {
+        text-align: center;
+    }
+
+    #features .name-features {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width :768px) {
+    #features .right-details-features img {
+        width: 100%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Section Price
+--------------------------------------------------------------*/
+#benefit-platform .style-section-features {
+    padding-top: 35px;
+}
+
+#benefit-platform .single-card {
+    padding: 50px 0;
+}
+
+#benefit-platform .card-details-features {
+    display: flex;
+    align-items: center;
+}
+
+#benefit-platform .title-features {
+    margin: 60px 0;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: linear-gradient(0deg, #263238, #263238)
+}
+
+#benefit-platform .title-features span {
+    color: rgba(43, 122, 121, 1);
+}
+
+
+#benefit-platform .name-features {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(65, 60, 59, 1);
+}
+
+#benefit-platform .description-feature {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(119, 137, 158, 1);
+
+}
+
+#benefit-platform .all-benefits {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#benefit-platform .benefit-features {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#benefit-platform .benefit-description {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(119, 137, 158, 1);
+    margin-bottom: 0;
+}
+
+#benefit-platform .bg-color-card-features-1 {
+    background: rgba(98, 184, 12, 0.12);
+    border-radius: 54px;
+}
+
+#benefit-platform .bg-color-card-features-2 {
+    background: rgba(12, 122, 184, 0.12);
+    border-radius: 54px;
+}
+
+@media (max-width : 991px) {
+    #benefit-platform .title-features {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    #benefit-platform .card-details-features {
+        flex-direction: column;
+    }
+
+    #benefit-platform .right-details-features img {
+        width: 100%;
+    }
+
+    #benefit-platform .name-features {
+        font-size: 25px;
+    }
+
+    #benefit-platform .title-features {
+        margin-bottom: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Section Price
+--------------------------------------------------------------*/
+
+#plan-price .table-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 35px;
+}
+
+#plan-price .title-plan-price {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: linear-gradient(0deg, #263238, #263238),
+
+}
+
+#plan-price .title-plan-price span {
+    color: rgba(43, 122, 121, 1);
+}
+
+#plan-price .card-plan {
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-content: space-between;
+    width: 33%;
+}
+
+#plan-price .top-card-plan {
+    text-align: center;
+
+}
+
+#plan-price .icon-card-plan {
+    border-radius: 8px;
+    background: rgba(234, 236, 240, 1);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#plan-price .icon-card-plan img {
+    width: 25px;
+}
+
+#plan-price .title-card-price {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(12, 184, 182, 1);
+    margin-bottom: 20px;
+}
+
+#plan-price .price-card {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1)
+}
+
+#plan-price .subscription-type {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(222, 222, 222, 1);
+
+}
+
+#plan-price .text-description-card-price {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+
+}
+
+#plan-price .details-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+#plan-price .start {
+    width: 100%;
+}
+
+#plan-price .btn-to-start {
+
+    background: #0CB8B6;
+    border: 1px solid #0CB8B6;
+    border-radius: 8px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+@media(max-width :991px) {
+    #plan-price .table-wrapper {
+        flex-direction: column;
+    }
+
+    #plan-price .card-plan {
+        width: 100%;
+    }
+
+    #plan-price .title-plan-price {
+        font-size: 28px;
+    }
+
+    #plan-price .text-description-card-price {
+        justify-content: center;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+# Section Register
+--------------------------------------------------------------*/
+
+.border-image {
+    width: 75%;
+    position: absolute;
+    top: 296px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+#register .step-resgister {
+    margin-top: 90px;
+    position: relative;
+
+}
+
+#register .title-steps-register {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #263238;
+}
+
+#register .title-steps-register span {
+    color: #2B7A79
+}
+
+#register .steps-warraper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+#register .step {
+    text-align: center;
+}
+
+.first-step,
+.second-step,
+.third-step,
+.fourth-step {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+#register .number-step {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#register .bg-color-step-1 {
+    background-color: #6DD4D3;
+}
+
+#register .bg-color-step-2 {
+    background-color: #0CB8B6;
+}
+
+#register .bg-color-step-3 {
+    background-color: #0BA6A4;
+}
+
+#register .bg-color-step-4 {
+    background-color: #0D7B79;
+}
+
+#register .description-step {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 30px;
+    color: #414141;
+    margin-top: 25px;
+}
+
+#register .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 26px;
+
+}
+
+#register .marju {
+    margin-top: 12px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    clear: both;
+}
+
+@media(max-width : 991px) {
+    #register .title-steps-register {
+        font-size: 28px;
+    }
+}
+
+@media(max-width : 768px) {
+
+    #register .steps-warraper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #register .border-image {
+        display: none;
+    }
+}
+
+@media(max-width : 576px) {
+    #register .steps-warraper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #register .step {
+        gap: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Section Input Register
+--------------------------------------------------------------*/
+#register-inputs .steps-register-doctor {
+    background: rgba(218, 239, 239, 1);
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    margin-bottom: -90px;
+    margin-top: 80px;
+}
+
+#register-inputs .registartion {
+    padding: 100px 0px 175px 0px;
+}
+
+#register-inputs .title-register-step {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #263238;
+    margin-bottom: 30px;
+
+}
+
+#register-inputs .title-register-step span {
+    color: #2B7A79
+}
+
+#register-inputs .list-steps-register {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+#register-inputs .step-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#register-inputs .number-step-register {
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+    border: 1px solid #D0E7E5;
+    position: relative;
+}
+
+#register-inputs .active-step {
+    background: #0CB8B6;
+    border-color: #0CB8B6;
+    color: #fff;
+}
+
+#register-inputs .state-register {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#register-inputs .description-step-register {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+}
+
+#register-inputs .list-inputs-register {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#register-inputs .place-upload {
+    position: relative;
+}
+
+#register-inputs .section-upload {
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #EAECF0;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+#register-inputs .input-file {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999999;
+    top: 0px;
+    width: 300px;
+    height: 60px;
+    max-width: 100%;
+    left: 0;
+    cursor: pointer;
+}
+
+#register-inputs .place-upload-1 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid #F8F8F8;
+    margin: 0 auto;
+}
+
+#register-inputs .place-upload-2 {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    background: #EBECF0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#register-inputs .take-file {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#register-inputs .text-upload-1 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #667085;
+    margin-top: 15px;
+
+}
+
+#register-inputs .text-upload-2 {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #667085;
+
+}
+
+#register-inputs .group-inputs-register {
+    margin-top: 35px;
+}
+
+#register-inputs .style-label {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #61666F;
+
+}
+
+#register-inputs .icon-input-user {
+    background-image: url(../img/icon-user.svg);
+
+}
+
+#register-inputs .icon-input-phone {
+    background-image: url(../img/tel.svg);
+
+}
+
+#register-inputs .icon-input-phone {
+    background-image: url(../img/tel.svg);
+
+}
+
+#register-inputs .icon-custom {
+    background-image: url(../img/cnam-input.svg);
+
+}
+
+#register-inputs .icon-input-email {
+    background-image: url(../img/mail.svg);
+}
+
+#register-inputs .icon-input-website {
+    background-image: url(../img/website.svg);
+}
+
+#register-inputs .icon-input-address {
+    background-image: url(../img/address.svg);
+}
+
+#register-inputs .icon-input-facebook {
+    background-image: url(../img/facebook-id.svg);
+}
+
+#register-inputs .icon-input-upload {
+    background-image: url(../img/upload-cloud.svg);
+}
+
+.style-input-register {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+    cursor: pointer;
+}
+
+.input-details {
+    width: 49.5%;
+}
+
+#register-inputs .place-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-of-dropdown {
+    display: block;
+
+}
+
+.style-input-options {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #D2D1D6;
+    border-radius: 10px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-left: 45px;
+    margin-bottom: 24px;
+    padding-right: 39px;
+}
+
+#register-inputs .more-options {
+    position: relative;
+}
+
+#register-inputs .style-options:last-child {
+    border-bottom: none;
+}
+
+#register-inputs .style-options:hover {
+    background: rgba(218, 239, 239, 1);
+    color: #494949;
+}
+
+
+#register-inputs .flatpickr-wrapper {
+    width: 100%;
+}
+
+#register-inputs .form-control {
+    padding: 0.375rem 2.75rem;
+}
+
+#register-inputs .next-step-btn {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#register-inputs .style-btn-step {
+    width: 350px !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+#register-inputs .btn-next-step {
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    width: 510px;
+    max-width: 100%;
+    padding: 20px 10px;
+    background: #0CB8B6;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#register-inputs .btn-previous-step {
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0CB8B6;
+    width: 510px;
+    max-width: 100%;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#register-inputs .style-label span {
+    color: red;
+}
+
+#register-inputs .btn-location {
+    background: #0CB8B6;
+    border-radius: 10px;
+    border: none;
+    width: 62px;
+    height: 50px;
+}
+
+#register-inputs .input-file-step::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#register-inputs .input-file-step::before {
+    content: 'Choisir un fichier';
+    display: inline-block;
+    margin-top: 15px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-align: left;
+    color: #61666F;
+    width: 100%;
+}
+
+#register-inputs .name-file {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    background: #fff;
+    width: 68%;
+
+}
+
+#register-inputs .icon-upload-file {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+
+#register-inputs .filter-data {
+    display: flex;
+    gap: 25px;
+    position: relative;
+}
+
+#register-inputs .filter-data input[type="checkbox"] {
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#register-inputs .input-filter-data {
+    width: 0px;
+}
+
+#register-inputs .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Styling checkbox */
+#register-inputs .condition input:checked~.checkmark:after {
+    display: block;
+}
+
+#register-inputs .condition {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#register-inputs .condition input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#register-inputs .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1.5px solid #9E9DA8
+}
+
+#register-inputs .condition input:checked~.checkmark {
+    background-color: #000
+}
+
+#register-inputs .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#register-inputs .condition input:checked~.checkmark:after {
+    display: block;
+}
+
+#register-inputs .condition .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#register-inputs .text-condition {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E9DA8;
+    text-decoration: underline;
+
+}
+
+#register-inputs .myfile {
+    position: relative;
+}
+
+#register-inputs .padding-input-file {
+    padding-left: 15px;
+}
+
+#register-inputs .location {
+    display: flex;
+    gap: 12px;
+}
+
+#register-inputs .display-block {
+    display: block;
+}
+
+/*Calendrier*/
+/* .flatpickr-day.selected {
+    background: #0CB8B6 !important;
+    border-color: #0CB8B6 !important
+}
+
+.flatpickr-day.today {
+    border-color: #0CB8B6 !important
+}
+
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
+
+}
+
+.flatpickr-current-month input.cur-year {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover svg,
+.flatpickr-months .flatpickr-next-month:hover svg {
+    fill: #0CB8B6 !important
+} */
+
+
+/*Dropdown inputs*/
+#register-inputs .style-dropdown-menu-regsitration {
+    position: relative !important;
+    text-align: left !important;
+    background: #fff !important;
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #61666F !important;
+    border: 1px solid #ced4da !important;
+}
+
+#register-inputs .style-dropdown-menu-regsitration span {
+    margin-left: 14px;
+}
+
+#register-inputs .dropdown-toggle::after {
+    display: none;
+}
+
+#register-inputs .style-sub-menu {
+    width: 100% !important;
+
+}
+
+#register-inputs .style-sub-menu li a {
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#register-inputs .dropdown-item:hover {
+    background: rgba(218, 239, 239, 1) !important;
+    cursor: pointer;
+}
+
+#register-inputs .dropdown-item:active {
+    color: #000 !important;
+
+}
+
+#register-inputs .icon-arrow-btn {
+    position: absolute;
+    right: 25px;
+    top: 19px;
+    transform: rotate(90deg);
+}
+
+#register-inputs .form-control:focus {
+    border: 2px solid #000;
+    box-shadow: none;
+}
+
+
+@media(max-width :1200px) {
+    #register-inputs .list-steps-register {
+        justify-content: space-between;
+    }
+
+    #register-inputs .step-content {
+        gap: 10px;
+    }
+}
+
+@media(max-width : 991px) {
+    #register-inputs .list-steps-register {
+        flex-direction: column;
+    }
+
+    #register-inputs .title-register-step {
+        font-size: 28px;
+    }
+}
+
+@media(max-width : 768px) {
+    #register-inputs .place-input {
+        flex-direction: column;
+    }
+
+    #register-inputs .input-details {
+        width: 100%;
+    }
+
+    #register-inputs .list-steps-register {
+        padding: 30px 20px;
+    }
+
+    #register-inputs .next-step-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #register-inputs .style-btn-step {
+        width: 510px !important;
+        max-width: 100% !important;
+    }
+
+    #register-inputs .style-label {
+        font-size: 16px;
+    }
+}
+
+

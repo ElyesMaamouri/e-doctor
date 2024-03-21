@@ -4677,7 +4677,7 @@ Scrollbar Table my-relatives
 
 #health .health-doctor {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 

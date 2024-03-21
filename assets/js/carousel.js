@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#carousel-partner-health").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       margin: 40,
       nav: true,
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $("#carousel-specialties").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       margin: 40,
       nav: true,
@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     $("#carousel-specialties-mobile").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       margin: 40,
       nav: true,
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
     $("#carousel-paramedics").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       margin: 40,
       nav: true,
@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     $("#carousel-paramedics-mobile").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       margin: 40,
       nav: true,
@@ -81,11 +81,6 @@ $(document).ready(function () {
         },
       },
     });
-
-
-
-
-    
 });
 
  

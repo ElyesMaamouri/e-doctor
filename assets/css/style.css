@@ -19,6 +19,9 @@ body {
     padding-right: 0 !important;
 }
 
+.pp {
+    border: 1px solid red
+}
 
 .main-container {
     max-width: 90%;
@@ -87,14 +90,15 @@ input[type=number] {
     background-color: #455A64;
     border-radius: 50%;
     cursor: pointer;
-    width:60px;
+    width: 60px;
     height: 60px;
     position: fixed;
     right: 30px;
     bottom: 15px;
     border: none;
     z-index: 9999;
-  }
+}
+
 /*--------------------------------------------------------------
 # Section Navigation
 --------------------------------------------------------------*/
@@ -4673,14 +4677,14 @@ Scrollbar Table my-relatives
 
 #health .health-doctor {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #health .title-hero-health {
 
     font-family: 'Poppins';
-    font-size: 40px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -4783,12 +4787,19 @@ Scrollbar Table my-relatives
 }
 
 #health .img-group-doctor {
-    width: 100%;
+    width: 75%;
+    float: right;
 }
 
 #health .arrow-img-style {
     position: absolute;
     right: 25px;
+}
+
+@media(max-width : 1200px) {
+    #health .health-doctor {
+        padding-bottom: 40px;
+    }
 }
 
 @media(max-width : 1100px) {
@@ -4813,6 +4824,19 @@ Scrollbar Table my-relatives
     #health .input-where-place {
         width: 100%;
 
+    }
+
+    #health .group-doctors {
+        text-align: center;
+    }
+
+    #health .img-group-doctor {
+        float: none;
+
+    }
+
+    #health .health-doctor {
+        margin-bottom: 0;
     }
 }
 
@@ -4846,12 +4870,14 @@ Scrollbar Table my-relatives
 #partner-health .item-for-carousel {
     display: flex;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #partner-health .title-item {
     color: #413C3B;
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -4869,7 +4895,7 @@ Scrollbar Table my-relatives
 }
 
 .owl-carousel .owl-item img {
-    width: 500px !important;
+    width: 375px !important;
 }
 
 /*Carousel */
@@ -4925,7 +4951,7 @@ Scrollbar Table my-relatives
 
 #edoctor-statistics .title-edoctors {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -4947,7 +4973,7 @@ Scrollbar Table my-relatives
 
 #edoctor-statistics .number-statistics {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 58px;
     letter-spacing: 0em;
@@ -5012,7 +5038,7 @@ Scrollbar Table my-relatives
 
 #specialties .title-our-specialties {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5149,7 +5175,7 @@ Scrollbar Table my-relatives
     display: none;
 }
 
-#specialties .width-img  {
+#specialties .width-img {
     width: 100% !important;
 }
 
@@ -5196,13 +5222,15 @@ Scrollbar Table my-relatives
     flex-direction: row-reverse;
     margin-bottom: 0 !important;
 }
+
 #doctor .custom-border {
-   border-radius: 307px 307px 0px 0px !important;
+    border-radius: 307px 307px 0px 0px !important;
 }
+
 #doctor .doctor-section {
     display: flex;
-   margin-top: 65px;
-   margin-bottom: 65px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     align-items: center;
     justify-content: center;
     gap: 60px;
@@ -5217,7 +5245,11 @@ Scrollbar Table my-relatives
 }
 
 #doctor .img-doctor-section {
-    width: 100%;
+    width: 75%;
+}
+
+#doctor .img-float-right {
+    float: right;
 }
 
 #doctor .title-doctor-section {
@@ -5238,7 +5270,7 @@ Scrollbar Table my-relatives
 #doctor .description-doctor-section {
     color: #77899E;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5264,7 +5296,7 @@ Scrollbar Table my-relatives
     position: relative;
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5284,28 +5316,39 @@ Scrollbar Table my-relatives
     right: 15px;
     top: 20px;
 }
+
 @media(max-width : 1200px) {
-    #doctor .style-section-doctor, .custom-border {
-        border-radius:0px !important;
-       
-     }
+
+    #doctor .style-section-doctor,
+    .custom-border {
+        border-radius: 0px !important;
+
+    }
 }
- 
+
 @media(max-width :991px) {
     #doctor .doctor-section {
         flex-direction: column-reverse;
+        margin-bottom: 0;
     }
 
     #doctor .btn-show-utilis {
         width: 100%;
     }
 
-    
-    #doctor .custom-border {
-      
-        margin-bottom: -90px;
-     }
 
+    #doctor .custom-border {
+
+        margin-bottom: -90px;
+    }
+
+    #doctor .picture-doctor-section {
+        text-align: center;
+    }
+
+    #doctor .img-float-right {
+        float: none;
+    }
 
 }
 
@@ -5328,7 +5371,7 @@ Scrollbar Table my-relatives
 
 #top-register .title-top-register {
     font-family: "Poppins";
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5398,14 +5441,7 @@ Scrollbar Table my-relatives
         padding-right: 0;
     }
 }
-
-@media(max-width :768px) {
-    #top-register .title-top-register {
-        font-size: 40px;
-        line-height: 48px;
-    }
-
-}
+ 
 
 /*--------------------------------------------------------------
 # Section Features
@@ -5414,13 +5450,16 @@ Scrollbar Table my-relatives
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
 
 }
 
 #features .title-features {
     margin: 60px 0;
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5450,7 +5489,7 @@ Scrollbar Table my-relatives
 }
 
 #features .img-top-card img {
-    width: 361px;
+    width: 270px;
     max-width: 100%;
 }
 
@@ -5537,18 +5576,22 @@ Scrollbar Table my-relatives
 }
 
 #benefit-platform .single-card {
-    padding: 50px 0;
+    padding: 0 0 50px 0;
 }
 
 #benefit-platform .card-details-features {
     display: flex;
     align-items: center;
+    gap: 20px;
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #benefit-platform .title-features {
-    margin: 60px 0;
+    margin: 60px 0 0 0;
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5563,7 +5606,7 @@ Scrollbar Table my-relatives
 
 #benefit-platform .name-features {
     font-family: "Poppins";
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 48px;
     letter-spacing: 0em;
@@ -5597,7 +5640,7 @@ Scrollbar Table my-relatives
 
 #benefit-platform .benefit-description {
     font-family: "Poppins";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
@@ -5627,7 +5670,8 @@ Scrollbar Table my-relatives
     }
 
     #benefit-platform .right-details-features img {
-        width: 100%;
+   width: 375px;
+   max-width: 100%;
     }
 
     #benefit-platform .name-features {
@@ -5637,6 +5681,11 @@ Scrollbar Table my-relatives
     #benefit-platform .title-features {
         margin-bottom: 0;
     }
+
+    #benefit-platform .single-card {
+        padding: 50px 0 50px 0;
+    }
+    
 }
 
 /*--------------------------------------------------------------
@@ -5647,12 +5696,15 @@ Scrollbar Table my-relatives
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin: 0 auto;
     gap: 35px;
+    width: 1250px;
+    max-width: 100%;
 }
 
 #plan-price .title-plan-price {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5710,7 +5762,7 @@ Scrollbar Table my-relatives
 
 #plan-price .price-card {
     font-family: "Poppins";
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: -0.02em;
@@ -5811,7 +5863,7 @@ Scrollbar Table my-relatives
 
 #register .title-steps-register {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
@@ -5947,7 +5999,7 @@ Scrollbar Table my-relatives
 
 #register-inputs .title-register-step {
     font-family: 'Poppins';
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0em;
@@ -5968,6 +6020,9 @@ Scrollbar Table my-relatives
     display: flex;
     justify-content: flex-start;
     gap: 40px;
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #register-inputs .step-content {
@@ -6021,6 +6076,9 @@ Scrollbar Table my-relatives
     background: #fff;
     border-radius: 20px;
     padding: 30px;
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
     margin-top: 40px;
 }
 
@@ -6578,5 +6636,3 @@ Scrollbar Table my-relatives
         font-size: 16px;
     }
 }
-
-

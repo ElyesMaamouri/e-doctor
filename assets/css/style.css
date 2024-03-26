@@ -12,15 +12,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.pp {
+    border : 1px solid red;
+}
 body {
     background: #F7F7F7 !important;
     overflow: inherit !important;
     padding-right: 0 !important;
-}
-
-.pp {
-    border: 1px solid red
 }
 
 .main-container {
@@ -5167,11 +5165,12 @@ Scrollbar Table my-relatives
     cursor: pointer;
 }
 
-#carousel-specialties-mobile {
-    display: none;
+.item-carousel-specialties-mobile{
+    display: none ;
 }
 
-#carousel-paramedics-mobile {
+
+.item-carousel-paramedics-mobile {
     display: none;
 }
 
@@ -5191,20 +5190,21 @@ Scrollbar Table my-relatives
 }
 
 @media(max-width : 768px) {
+ 
     #carousel-specialties {
         display: none;
     }
 
-    #carousel-specialties-mobile {
-        display: initial;
+    .item-carousel-specialties-mobile{
+        display: initial !important;
     }
 
     #carousel-paramedics {
         display: none;
     }
 
-    #carousel-paramedics-mobile {
-        display: initial;
+    .item-carousel-paramedics-mobile {
+        display: initial !important;
     }
 
     #specialties .card-specialty {
@@ -5441,7 +5441,7 @@ Scrollbar Table my-relatives
         padding-right: 0;
     }
 }
- 
+
 
 /*--------------------------------------------------------------
 # Section Features
@@ -5670,8 +5670,8 @@ Scrollbar Table my-relatives
     }
 
     #benefit-platform .right-details-features img {
-   width: 375px;
-   max-width: 100%;
+        width: 375px;
+        max-width: 100%;
     }
 
     #benefit-platform .name-features {
@@ -5685,7 +5685,7 @@ Scrollbar Table my-relatives
     #benefit-platform .single-card {
         padding: 50px 0 50px 0;
     }
-    
+
 }
 
 /*--------------------------------------------------------------
